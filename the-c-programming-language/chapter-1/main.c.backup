@@ -17,5 +17,4 @@ int main() {
   // print_long_lines();
   // longer_than_80();
   // trim_line();
-  // detab(unsigned short tabstop);
 }
