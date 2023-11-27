@@ -1,0 +1,3 @@
+blanks = 82
+tabs = 12
+newlines = 16

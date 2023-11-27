@@ -1,0 +1,16 @@
+
+this is a file to use as input for testing C programs, it starts with a blank line
+
+this line is shorter than 80 characters
+
+this line is longer than 80 characters (84) and above this line is just a blank line
+
+this line has trailing blanks   
+
+this line has trailing tab\t
+
+the line below has only blanks and tabs
+    \t\t\t
+the line above is a blankline with only blanks tabs and newline character
+- \t\t\t\t
+this line has tabs in\t\tthe middle of it\t\t, awkward.

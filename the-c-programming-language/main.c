@@ -1,5 +1,4 @@
 #include "chapterone.c"
-#include <stdio.h>
 
 int main() {
   // hello_world();
@@ -17,5 +16,4 @@ int main() {
   // print_long_lines();
   // longer_than_80();
   // trim_line();
-  // detab(unsigned short tabstop);
 }
