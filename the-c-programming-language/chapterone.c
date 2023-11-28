@@ -1,4 +1,5 @@
 #include "chapterone.h"
+#include "helpers.c"
 #include <stdio.h>
 
 // Exercise 1-21. Write a program entab that replaces strings of blanks by the minimum number of tabs and blanks to
@@ -32,21 +33,6 @@ void detab(unsigned short tabstop) {
   }
 }
 
-/* reverse a character string */
-void reverse(char to[], char from[], int len) {
-  int i, j;
-
-  i = 0;
-  j = len - 2; // minus newline character and end of string character
-  while (j >= 0) {
-    to[i] = from[j];
-    --j;
-    ++i;
-  }
-  to[(len - 1)] = '\n';
-  to[(len)] = '\0';
-}
-
 void reverse_input_lines() {
   // Exercise 1-19. Write a function reverse(s) that reverses the character string s. Use it to write a program that
   // reverses its input a line at a time.
@@ -61,52 +47,18 @@ void reverse_input_lines() {
   }
 }
 
-int get_trimmed_line(char line[], int maxline) {
-  int c, i, blankline;
-  for (i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i) {
-    if (i == 0)
-      blankline = BLANKLINE;
-    if (is_special_char(c) == 0)
-      blankline = 0;
-    line[i] = c;
-  }
-  if (blankline == BLANKLINE)
-    return BLANKLINE;
-  if (c == '\n') {
-    if (i == 0) {
-      return BLANKLINE;
-    }
-
-    --i; // go to character before \n
-    while (is_special_char(line[i])) {
-      --i;
-    }
-    // assign end of line character after a non-whitespace character is found
-    ++i;
-    line[i] = c;
-    ++i;
-  }
-  line[i] = '\0'; // signals end of char array
-  return i;
-}
-
-void trim_line() {
+void trim_lines() {
   // Exercise 1-18. Write a program to remove trailing blanks and tabs from each line of input, and to delete entirely
   // blank lines.
   int len;            /* current line length */
   char line[MAXLINE]; /* current input line */
 
-  while ((len = get_trimmed_line(line, MAXLINE)) > 0) {
-    if (len != BLANKLINE)
-      printf("%s", line);
+  while ((len = get_line(line, MAXLINE)) > 0) {
+    if (len != 1) {                 // nothing to trim if len is 1 (only newline character), don't print to output
+      if (trim_line(line, len) > 1) // check again^
+        printf("%s", line);
+    }
   }
-}
-
-int is_special_char(int c) {
-  if (c != '\n' && c != '\t' && c != '\b' && c != ' ') {
-    return 0;
-  }
-  return 1;
 }
 
 void longer_than_80() {
@@ -114,34 +66,10 @@ void longer_than_80() {
   int len;            /* current line length */
   char line[MAXLINE]; /* current input line */
 
-  while ((len = get_trimmed_line(line, MAXLINE)) > 0)
+  while ((len = get_line(line, MAXLINE)) > 0)
     if (len >= PRINTSIZE) {
       printf("%s", line);
     }
-}
-
-/* copy: copy 'from' into 'to'; assume 'to' is big enough */
-void copy(char to[], char from[]) {
-  int i;
-
-  i = 0;
-  while (((to[i] = from[i]) != '\0') && (i <= LONGLINE)) {
-    ++i;
-  }
-}
-
-/* get_line: read characters until \n into line, return length */
-int get_line(char line[], int maxline) {
-  int c, i;
-  for (i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i) {
-    line[i] = c;
-  }
-  if (c == '\n') {
-    line[i] = c;
-    ++i;
-  }
-  line[i] = '\0'; // signals end of char array
-  return i;
 }
 
 void print_long_lines() {
@@ -155,7 +83,7 @@ void print_long_lines() {
   char longest[MAXLINE]; /* longest line saved here */
 
   max = 0;
-  while ((len = get_trimmed_line(line, MAXLINE)) > 0) {
+  while ((len = get_line(line, MAXLINE)) > 0) {
     if (len > LONGLINE) {
       max = len;
       copy(longest, line);
@@ -378,19 +306,23 @@ void count_blanks_tabs_newlines() {
 }
 
 void eof_value() {
-  // exercise 1-6 & 1-7
+  // Exercise 1-6. Verify that the expression getchar() != EOF is 0 or 1.
+  // Exercise 1-7. Write a program to print the value of EOF.
   int c;
 
   c = getchar();
-  while (c != EOF) {
-    printf("%d", c != EOF); // 1 or 0
-    printf("%d", EOF);      // EOF = -1
+  printf("%d = getchar() not equal to EOF\n", c != EOF); // 1 or 0
+
+  while ((c = getchar()) != EOF) {
     c = getchar();
   }
+  printf("%d = getchar() is equal to EOF\n", c != EOF); // 1 or 0
+  printf("EOF = %d", EOF);                              // EOF = -1
 }
 
 void cels_to_fahr_reverse() {
-  // exercise 1-5
+  // Exercise 1-5. Modify the temperature conversion program to print the table in reverse order, that is, from 300
+  // degrees to 0.
   float fahr, celsius;
   float times_by;
 
@@ -406,7 +338,7 @@ void cels_to_fahr_reverse() {
 }
 
 void cels_to_fahr() {
-  // exercise 1-4
+  // Exercise 1-4. Write a program to print the corresponding Celsius to Fahrenheit table.
   float fahr, celsius;
   float times_by;
 
@@ -422,7 +354,7 @@ void cels_to_fahr() {
 }
 
 void fahr_to_cels() {
-  // exercise 1-3
+  // Exercise 1-3. Modify the temperature conversion program to print a heading above the table.
   float fahr, celsius;
   int lower, upper, step;
 
@@ -440,14 +372,17 @@ void fahr_to_cels() {
 }
 
 void unknown_escape_char() {
-  // exercise 1-2
-  printf("hello, ");
+  // Exercise 1-2. Experiment to find out what happens when printf's argument string contains \c, where c is some
+  // character not listed above.
+  printf("hello ");
   // printf("\k"); // unknown escape char warning, then prints normal char
   printf("\n");
+  printf("newline");
 }
 
 void hello_world() {
-  // exercise 1-1
+  // Exercise 1-1. Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to
+  // see what error messages you get.
   printf("hello, ");
   printf("world");
   printf("\n");

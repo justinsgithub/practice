@@ -8,7 +8,6 @@
 #define MAXLINE 1000    /* maximum input line size */
 #define LONGLINE 81     /* long input line size */
 #define PRINTSIZE 81    /* minimum input line size to print */
-#define BLANKLINE 1001  /* number assigned to a blank line */
 
 void hello_world();
 void unknown_escape_char();
@@ -28,7 +27,7 @@ int get_line(char line[], int maxline);
 void print_long_lines();
 void longer_than_80();
 int is_special_char(int c);
-int get_trimmed_line(char line[], int maxline);
-void trim_line();
+int trim_line(char line[], int line_len);
+void trim_lines();
 void reverse(char to[], char from[], int len);
 void detab(unsigned short tabstop);

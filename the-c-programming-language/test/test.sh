@@ -10,13 +10,10 @@
 
 # no need for IFS= with while loop
 grep '//' main.c | while read -r line; do
-	echo $line
 	newline=$(echo $line | sed 's/\/\/ //')
-	echo $newline
 	outputfile=test/$(echo $newline | sed 's/(.*);//').txt
-	echo $outputfile
 	sed "s,$line,  $newline," main.c >test.c && gcc test.c
-	./a.out <input.txt >$outputfile
+	./a.out <"test/.input.txt" >$outputfile
 done
 
 rm test.c a.out

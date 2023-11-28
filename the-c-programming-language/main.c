@@ -1,6 +1,9 @@
 #include "chapterone.c"
+#include "chaptertwo.c"
 
 int main() {
+  /* Chapter 1 */
+
   // hello_world();
   // unknown_escape_char();
   // fahr_to_cels();
@@ -15,5 +18,13 @@ int main() {
   // char_freq_histogram();
   // print_long_lines();
   // longer_than_80();
-  // trim_line();
+  // trim_lines();
+
+  /* Chapter 2 */
+  // type_ranges();
+  int blah;
+  while (blah >= 0) {
+    ++blah;
+  }
+  printf("%d", blah - 1);
 }
