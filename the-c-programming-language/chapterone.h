@@ -8,6 +8,7 @@
 #define MAXLINE 1000    /* maximum input line size */
 #define LONGLINE 81     /* long input line size */
 #define PRINTSIZE 81    /* minimum input line size to print */
+#define TABSTOP 2       /* how many columns tab stop should be */
 
 void hello_world();
 void unknown_escape_char();
@@ -30,4 +31,5 @@ int is_special_char(int c);
 int trim_line(char line[], int line_len);
 void trim_lines();
 void reverse(char to[], char from[], int len);
-void detab(unsigned short tabstop);
+void detab();
+void tab_to_spaces(char line[], char detabbed[]);

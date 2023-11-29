@@ -1,6 +1,36 @@
 #include "chapterone.h"
 #include <stdio.h>
 
+void tab_to_spaces(char line[], char detabbed_line[]) {
+  int i, j, tabstop;
+  i = 0;
+  j = 0;
+  tabstop = 1;
+
+  while (line[i] != '\n') {
+    if (line[i] == '\t') {
+      // if j is less than 8, fill with spaces until next tabstop (not equal to 8 because array starts at 0, so 8 would
+      // actually be 9 columns)
+      while (j < (tabstop * TABSTOP)) {
+        detabbed_line[j] = ' ';
+        ++j;
+      }
+    } else {
+      detabbed_line[j] = line[i];
+      ++j;
+    }
+
+    // if j is at 8 (1 past first tabstop), we are now at the next tabstop (16, 24, ...)
+    if (j == (tabstop * TABSTOP))
+      ++tabstop;
+
+    ++i;
+  }
+
+  detabbed_line[j] = '\n';
+  detabbed_line[j + 1] = '\0';
+}
+
 int old_trim_line(char line[], int maxline) {
   int c, i;
   for (i = 0; (c = getchar()) != EOF && c != '\n'; ++i) {

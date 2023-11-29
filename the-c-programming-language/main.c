@@ -19,12 +19,7 @@ int main() {
   // print_long_lines();
   // longer_than_80();
   // trim_lines();
+  // detab();
 
   /* Chapter 2 */
-  // type_ranges();
-  int blah;
-  while (blah >= 0) {
-    ++blah;
-  }
-  printf("%d", blah - 1);
 }

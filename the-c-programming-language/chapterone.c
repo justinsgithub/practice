@@ -18,18 +18,22 @@
 // brackets and braces. Don't forget about quotes, both single and double, escape sequences, and comments. (This program
 // is hard if you do it in full generality.)
 
-void detab(unsigned short tabstop) {
+void detab() {
   // Exercise 1-20. Write a program detab that replaces tabs in the input with the proper number of blanks to space to
-  // the next tab stop. Assume a fixed set of tab stops, say every "n" columns. Should "n" be a variable or a symbolic
-  // parameter? Variable so that user can specify tabstop length.
-  // TEST: to test the output should have no tabs but the lines should all be the same length as the input.
+  // the next tab stop. Assume a fixed set of tab stops, say every "n" columns.
+  //
+  // Should "n" be a variable or a symbolic parameter?
+  // Symbolic parameter so that user can define what they want it to be.
+  //
+  // TEST: the output should have no tabs and the lines should all be the same length as the input.
 
-  int len;                /* current line length */
-  char line[MAXLINE];     /* current input line */
-  char reversed[MAXLINE]; /* reversed string saved here */
+  int len;                     /* current line length */
+  char line[MAXLINE];          /* current input line */
+  char detabbed_line[MAXLINE]; /* current input line */
 
   while ((len = get_line(line, MAXLINE)) > 0) {
-    printf("%s", line);
+    tab_to_spaces(line, detabbed_line);
+    printf("%s", detabbed_line);
   }
 }
 
