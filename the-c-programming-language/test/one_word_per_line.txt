@@ -54,11 +54,39 @@ line
 this 
 line 
 has 
+ 
+ 
 trailing 
 blanks 
  
  
 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+tabs 
+ 
+ 
+not 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+spaces
 
 
 
@@ -66,19 +94,15 @@ this
 line 
 has 
 trailing 
-tab	
-
-
-
-
-the 
-line 
+tab 
+and 
 below 
 has 
 only 
 blanks 
 and 
-tabs
+tabs	
+
 
  
  
@@ -124,4 +148,4 @@ it
 , 
 awkward.
 
-16 85 456
+16 87 489

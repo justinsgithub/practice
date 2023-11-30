@@ -1,6 +1,33 @@
 #include "chapterone.h"
 #include <stdio.h>
 
+void spaces_to_tabs(char line[], char entabbed_line[]) {
+  int i, j, tabstop;
+  i = 0;
+  j = 0;
+  tabstop = 1;
+
+  while (line[i] != '\n') {
+    if ((line[i] == ' ') && (line[i + 1] == ' ')) {
+      entabbed_line[j] = '\t';
+      while (i < (tabstop * TABSTOP) && (line[i] == ' ')) {
+        ++i;
+      }
+    } else {
+      entabbed_line[j] = line[i];
+      ++i;
+    }
+
+    if (i == (tabstop * TABSTOP))
+      ++tabstop;
+
+    ++j;
+  }
+
+  entabbed_line[j] = '\n';
+  entabbed_line[j + 1] = '\0';
+}
+
 void tab_to_spaces(char line[], char detabbed_line[]) {
   int i, j, tabstop;
   i = 0;

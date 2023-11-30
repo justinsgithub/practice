@@ -5,11 +5,11 @@ this line is shorter than 80 characters
 
 this line is longer than 80 characters (84) and above this line is just a blank line
 
-this line has trailing blanks   
+this line has   trailing blanks   
 
-this line has trailing tab\t
+           tabs   not        spaces
 
-the line below has only blanks and tabs
+this line has trailing tab and below has only blanks and tabs\t
     \t\t\t
 the line above is a blankline with only blanks tabs and newline character
 - \t\t\t\t

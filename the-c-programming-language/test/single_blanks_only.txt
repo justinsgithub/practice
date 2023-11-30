@@ -7,9 +7,9 @@ this line is longer than 80 characters (84) and above this line is just a blank 
 
 this line has trailing blanks 
 
-this line has trailing tab	
+ tabs not spaces
 
-the line below has only blanks and tabs
+this line has trailing tab and below has only blanks and tabs	
  			
 the line above is a blankline with only blanks tabs and newline character
 - 				

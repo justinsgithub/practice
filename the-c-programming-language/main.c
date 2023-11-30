@@ -20,6 +20,7 @@ int main() {
   // longer_than_80();
   // trim_lines();
   // detab();
+  // entab();
 
   /* Chapter 2 */
 }

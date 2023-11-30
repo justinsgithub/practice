@@ -2,11 +2,6 @@
 #include "helpers.c"
 #include <stdio.h>
 
-// Exercise 1-21. Write a program entab that replaces strings of blanks by the minimum number of tabs and blanks to
-// achieve the same spacing. Use the same tab stops as for detab. When either a tab or a single blank would suffice to
-// reach a tab stop, which should be given preference? Tab should be given preference or you would just use all blanks
-// instead of any tabs otherwise.
-
 // Exercise 1-22. Write a program to "fold" long input lines into two or more shorter lines after the last non-blank
 // character that occurs before the n-th column of input. Make sure your program does something intelligent with very
 // long lines, and if there are no blanks or tabs before the specified column.
@@ -18,18 +13,31 @@
 // brackets and braces. Don't forget about quotes, both single and double, escape sequences, and comments. (This program
 // is hard if you do it in full generality.)
 
+void entab() {
+  // Exercise 1-21. Write a program entab that replaces strings of blanks by the minimum number of tabs and blanks to
+  // achieve the same spacing. Use the same tab stops as for detab.
+  // When either a tab or a single blank would suffice to reach a tab stop, which should be given preference?
+  // Tab should be given preference so that if TAPSTOP is changed, file will still keep formatting
+  // WARN: was very difficult to grok this exercise
+  int len;            /* current line length */
+  char line[MAXLINE]; /* current input line */
+  char entabbed_line[MAXLINE];
+
+  while ((len = get_line(line, MAXLINE)) > 0) {
+    spaces_to_tabs(line, entabbed_line);
+    printf("%s", entabbed_line);
+  }
+}
+
 void detab() {
   // Exercise 1-20. Write a program detab that replaces tabs in the input with the proper number of blanks to space to
   // the next tab stop. Assume a fixed set of tab stops, say every "n" columns.
-  //
   // Should "n" be a variable or a symbolic parameter?
   // Symbolic parameter so that user can define what they want it to be.
-  //
-  // TEST: the output should have no tabs and the lines should all be the same length as the input.
 
-  int len;                     /* current line length */
-  char line[MAXLINE];          /* current input line */
-  char detabbed_line[MAXLINE]; /* current input line */
+  int len;            /* current line length */
+  char line[MAXLINE]; /* current input line */
+  char detabbed_line[MAXLINE];
 
   while ((len = get_line(line, MAXLINE)) > 0) {
     tab_to_spaces(line, detabbed_line);
