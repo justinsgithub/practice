@@ -1,5 +1,5 @@
 
-this is a file to use as input for testing C programs, it starts with a blank line, and it is a really long line, we are going to make it > 160 characters to test our "fold" program
+/*this is a file to use as input for testing C programs, it starts with a blank line, and it is a really long line, we are going to make it > 160 characters to test our "fold" program
 
 this line is shorter than 80 characters
 
@@ -14,4 +14,10 @@ this line has trailing tab and below has only blanks and tabs
 the line above is a blankline with only blanks tabs and newline character
 - 				
 this line has tabs in		the middle of it		, awkward.
+*/
 
+#include "chapterone.h
+int main( {
+  int len;            /* current line length */
+  return 0
+}

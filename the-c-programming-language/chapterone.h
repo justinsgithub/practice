@@ -9,7 +9,7 @@
 #define LONGLINE 81     /* long input line size */
 #define PRINTSIZE 81    /* minimum input line size to print */
 #define TABSTOP 8       /* how many columns tab stop should be */
-#define MAXLENGTH 40    /* maximum line length (for fold program, set short for testing practicality) */
+#define MAXLENGTH 41    /* maximum line length (for fold program, set short for testing practicality) */
 
 void hello_world();
 void unknown_escape_char();
