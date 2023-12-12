@@ -1,2 +1,2 @@
-83 this is a file to use as input for testing C programs, it starts with a blank line
+184 /*this is a file to use as input for testing C programs, it starts with a blank line, and it is a really long line, we are going to make it > 160 characters to test our "fold" program
 85 this line is longer than 80 characters (84) and above this line is just a blank line

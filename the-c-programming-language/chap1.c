@@ -1,11 +1,12 @@
-#include "chapterone.h"
-#include "helpers.c"
+#include "chap1.h"
+#include "helpers1.c"
 #include <stdio.h>
 
 void fold() {
   // Exercise 1-22. Write a program to "fold" long input lines into two or more shorter lines after the last non-blank
   // character that occurs before the n-th column of input. Make sure your program does something intelligent with very
   // long lines, and if there are no blanks or tabs before the specified column.
+  // TODO: finish
 
   int len, i, j = 0;
   char line[MAXLINE];
@@ -14,35 +15,41 @@ void fold() {
   int current_fold = 1;       // keep track how many times line has been folded
 
   while ((len = get_line(line, MAXLINE)) > 0) {
-    if (len < maxlen)
+    if (len <= (maxlen)) { //  if line is shorter than maxlen
       printf("%s", line);
-    else {
-      current_fold = 1;
-      j = 0;
-      for (i = 0; i < len; ++i) {
+      break;
+    } else {
+      current_fold = 1; // reset current fold for every line from get_line
+      j = 0;            // reset j for every line from get_line
+      for (i = 0; line[i] != '\n'; ++i) {
         // end current line fold and start a new line if line exceeds max lengh
         if (i > (current_fold * MAXLENGTH)) {
-          folded_line[j] = '\n';
-          folded_line[j + 1] = '\0';
+          folded_line[j + 1] = '\n';
+          folded_line[j + 2] = '\0';
           ++current_fold;            // go to next fold to compare i against
           --i;                       // decrement i because we still need to assign this character to the new line fold
           j = 0;                     // reset j to start new line fold
           printf("%s", folded_line); // output finished line fold
         } else {
           folded_line[j] = line[i];
+          ++j;
         }
       }
+      folded_line[j] = '\n';
+      folded_line[j + 1] = '\0';
       printf("%s", folded_line);
     }
   }
 }
 
+// TODO: finish
 // Exercise 1-23. Write a program to remove all comments from a C program. Don't forget to handle quoted strings and
 // character constants properly. C comments do not nest.
 
 // Exercise 1-24. Write a program to check a C program for rudimentary syntax errors like unbalanced parentheses,
 // brackets and braces. Don't forget about quotes, both single and double, escape sequences, and comments. (This program
 // is hard if you do it in full generality.)
+
 void entab() {
   // Exercise 1-21. Write a program entab that replaces strings of blanks by the minimum number of tabs and blanks to
   // achieve the same spacing. Use the same tab stops as for detab.

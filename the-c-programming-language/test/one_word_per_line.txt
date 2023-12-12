@@ -1,6 +1,6 @@
 
 
-this 
+/*this 
 is 
 a 
 file 
@@ -17,7 +17,28 @@ starts
 with 
 a 
 blank 
-line
+line, 
+and 
+it 
+is 
+a 
+really 
+long 
+line, 
+we 
+are 
+going 
+to 
+make 
+it 
+> 
+160 
+characters 
+to 
+test 
+our 
+"fold" 
+program
 
 
 
@@ -148,4 +169,43 @@ it
 , 
 awkward.
 
-16 87 489
+*/
+
+
+
+#include 
+"chapterone.h
+
+int 
+main( 
+{
+
+ 
+ 
+int 
+len; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* 
+current 
+line 
+length 
+*/
+
+ 
+ 
+return 
+0
+
+}
+
+23 124 690

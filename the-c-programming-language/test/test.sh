@@ -12,7 +12,7 @@
 grep '//' main.c | while read -r line; do
 	newline=$(echo $line | sed 's/\/\/ //')
 	outputfile=test/$(echo $newline | sed 's/(.*);//').txt
-	sed "s,$line,  $newline," main.c >test.c && gcc test.c
+	sed "s@$line@  $newline@" main.c >test.c && gcc test.c
 	./a.out <"test/.input.txt" >$outputfile
 done
 

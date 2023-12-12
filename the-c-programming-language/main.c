@@ -1,5 +1,5 @@
-#include "chapterone.c"
-#include "chaptertwo.c"
+#include "chap1.c"
+#include "chap2.c"
 
 int main() {
   /* Chapter 1 */
@@ -21,6 +21,19 @@ int main() {
   // trim_lines();
   // detab();
   // entab();
+  // fold();
 
   /* Chapter 2 */
+  // type_ranges();
+  // no_logic_ops();
+  const char hexstring[] = "1B";
+  char fromthis[] = "has1has1has1";
+  const char deletethese[] = "1s";
+  // hextoint(hexstring);
+  // squeeze(fromthis, deletethese);
+  // any(fromthis, deletethese);
+  // lower('C');
+
+  int mid = 9 / 2;
+  printf("%d", mid);
 }
