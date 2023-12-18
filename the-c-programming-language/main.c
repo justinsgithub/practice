@@ -1,8 +1,10 @@
 #include "chap1.c"
 #include "chap2.c"
+#include "chap3.c"
 
 int main() {
   /* Chapter 1 */
+  /* three forward slashes is for testing script */
 
   // hello_world();
   // unknown_escape_char();
@@ -33,7 +35,10 @@ int main() {
   // squeeze(fromthis, deletethese);
   // any(fromthis, deletethese);
   // lower('C');
-
-  int mid = 9 / 2;
-  printf("%d", mid);
+  char escapefrom[] = "blah\\tblah\tha	ha\nha";
+  char escapeto[100];
+  char realfrom[] = "blah\\tblah\tha\\nha\nha";
+  char realto[100];
+  // escape(escapeto, escapefrom);
+  /// real(realto, realfrom);
 }

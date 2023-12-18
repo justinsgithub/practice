@@ -1,14 +1,66 @@
-void real(char s, char t) {
+#include <stdio.h>
+
+void real(char to[], char from[]) {
   // Exercise 3-2. Write a function escape(s,t) that converts characters like newline and tab into visible escape
   // sequences like \n and \t as it copies the string t to s. Use a switch. Write a function for the other direction as
   // well, converting escape sequences into the real characters.
+  int c, i, n, j;
+  j = i = n = 0;
+
+  // TODO: pretty sure could be cleaner, too tired to think how right now
+  while (from[i] != '\0') {
+    c = from[i++];   // c is current char in array
+    n = from[i];     // n is the next char in array, (since i was incremented above)
+    if (c == '\\') { // check for escape character
+      switch (n) {
+      case 't':
+        to[j++] = '\t'; // if 't' set to tab character
+        i++;            // need to increment because don't want to use 't' in next loop
+        break;
+      case 'n':
+        to[j++] = '\n'; // if 'n' set to new line character
+        i++;            // see above
+        break;
+      default:
+        break;
+      }
+    } else {
+      to[j++] = c;
+    }
+  }
+  to[j] = 0; // program prints extra characters without this? old memory location? Function below does not have same
+             // behavior
+
+  printf("%s\n\n", from);
+  printf("%s", to);
 }
 
-void escape(char s, char t) {
-  char st[] = "blah\tha	ha";
+void escape(char to[], char from[]) {
   // Exercise 3-2. Write a function escape(s,t) that converts characters like newline and tab into visible escape
   // sequences like \n and \t as it copies the string t to s. Use a switch. Write a function for the other direction as
   // well, converting escape sequences into the real characters.
+  int c, i = 0;
+  int j = 0;
+
+  while (from[i] != '\0') {
+    c = from[i++];
+    switch (c) {
+    case '\t':
+      to[j++] = '\\';
+      to[j++] = 't';
+      break;
+    case '\n':
+      to[j++] = '\\';
+      to[j++] = 'n';
+      break;
+    default:
+      to[j++] = c;
+      break;
+    }
+  }
+  to[j] = '\0'; // Program works fine without this.
+  printf("%s\n\n", from);
+  printf("%s", to);
 }
 
 /* _binsearch: find x in v[0] <= v[1] <= ... <= v[n-1] */
