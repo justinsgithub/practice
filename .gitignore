@@ -50,3 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+nand2tetris/projects
+nand2tetris/tools
