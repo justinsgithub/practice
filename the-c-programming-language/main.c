@@ -42,5 +42,6 @@ int main() {
   // escape(to, escapefrom);
   // real(to, realfrom);
   // expandtest();
-  /// strrindex();
+  // strrindex();
+  // atofe();
 }

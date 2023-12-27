@@ -50,5 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-nand2tetris/projects
+# nand2tetris/projects # no need to ignore, files not too large and needed to track progress
 nand2tetris/tools

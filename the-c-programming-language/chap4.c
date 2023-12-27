@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include <math.h>
 #include <stdio.h>
 #define MAXLINE 1000 /* maximum input line length */
 
@@ -15,11 +16,12 @@ static int _getline(char s[], int lim) {
   return i;
 }
 
-double atofe(char s[]) {
+static double _atofe(char s[]) {
   /* Exercise 4-2. Extend atof to handle scientific notation of the form 123.45e-6
    * where a floating-point number may be followed by e or E and an optionally signed exponent.
+   * TODO: extract repeated loops into function
    */
-  double val, power;
+  double val, power, exp;
   int i, sign;
 
   for (i = 0; isspace(s[i]); i++) /* skip white space */
@@ -36,7 +38,30 @@ double atofe(char s[]) {
     val = 10.0 * val + (s[i] - '0');
     power *= 10.0;
   }
-  return sign * val / power;
+  val = sign * val / power;
+  if (tolower(s[i++]) == 'e') {
+    sign = (s[i] == '-' ? -1 : 1);
+    if (s[i] == '-')
+      i++;
+    for (exp = 0.0; isdigit(s[i]); i++) {
+      exp = 10.0 * exp + (s[i] - '0');
+    }
+    exp = sign * exp;
+    val = pow(val, exp);
+  }
+  return val;
+}
+
+/* test */
+int atofe() {
+  double sum, atof(char[]);
+  char line[MAXLINE];
+  char n1[] = "2.23e2";
+  char n2[] = "2.23e-2";
+  sum = 0;
+  printf("%g\n", _atofe(n1));
+  printf("%g\n", _atofe(n2));
+  return 0;
 }
 
 /* Exercise 4-3. Given the basic framework, it's straightforward to extend the calculator. Add the modulus (%) operator
