@@ -1,0 +1,18 @@
+/*this is a file to use as input for testing C programs, it starts with a blank line, and it is a really long line, we are going to make it > 160 characters to test our "fold" program
+ above match found at index 2
+
+this line is shorter than 80 characters
+ above match found at index 0
+
+this line is longer than 80 characters (84) and above this line is just a blank line
+ above match found at index 54
+
+this line has   trailing blanks   
+ above match found at index 0
+
+this line has trailing tab and below has only blanks and tabs	
+ above match found at index 0
+
+this line has tabs in		the middle of it		, awkward.
+ above match found at index 0
+

@@ -1,4 +1,4 @@
-#include "chap1.h"
+#include "helpers.h"
 #include <stdio.h>
 
 void spaces_to_tabs(char line[], char entabbed_line[]) {

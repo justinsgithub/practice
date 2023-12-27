@@ -1,6 +1,7 @@
 #include "chap1.c"
 #include "chap2.c"
 #include "chap3.c"
+#include "chap4.c"
 
 int main() {
   /* Chapter 1 */
@@ -36,9 +37,10 @@ int main() {
   // any(fromthis, deletethese);
   // lower('C');
   char escapefrom[] = "blah\\tblah\tha	ha\nha";
-  char escapeto[100];
   char realfrom[] = "blah\\tblah\tha\\nha\nha";
-  char realto[100];
-  // escape(escapeto, escapefrom);
-  /// real(realto, realfrom);
+  char to[100];
+  // escape(to, escapefrom);
+  // real(to, realfrom);
+  // expandtest();
+  /// strrindex();
 }

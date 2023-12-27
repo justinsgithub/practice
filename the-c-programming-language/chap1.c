@@ -1,5 +1,5 @@
-#include "chap1.h"
-#include "helpers1.c"
+#include "helpers.h"
+#include "helpers.c"
 #include <stdio.h>
 
 void fold() {

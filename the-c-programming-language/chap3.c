@@ -1,5 +1,47 @@
 #include <stdio.h>
 
+/* TODO:
+ * Exercise 3-4. In a two's complement number representation, our version of itoa does not handle the largest number
+ * negative number, that is, the value of n equal to -(2wordsize-1). Explain why not. Modify it to print that value
+ * correctly, regardless of the machine on which it runs.
+ *
+ * TODO:
+ * Exercise 3-5. Write the function itob(n,s,b) that converts the integer n into a base b character representation in
+ * the string s. In particular, itob(n,s,16) formats n as a hexadecimal integer in s.
+ *
+ * TODO:
+ * Exercise 3-6. Write a version of itoa that accepts three arguments instead of two. The third argument is a minimum
+ * field width; the converted number must be padded with blanks on the left if necessary to make it wide enough.
+ *
+ */
+
+// TODO:
+void expand(char s1[] /* a-z */, char s2[] /* expanded notation */) {
+  // Exercise 3-2. Write a function expand(s1,s2) that expands shorthand notations like a-z in the string s1 into the
+  // equivalent complete list abc...xyz in s2. Allow for letters of either case and digits, and be prepared to handle
+  // cases like a-b-c and a-z0-9 and -a-z. Arrange that a leading or trailing - is taken literally.
+  int i, j;
+  char c1;
+  i = j = 0;
+  if (s1[i] == '-') { // leading - is taken literally
+    s2[j++] = s1[i++];
+  }
+  for (int i = i; s1[i] != '\0'; i++) {
+  }
+
+  s2[j] = '\0';
+  printf("%s\n", s2);
+}
+
+void expandtest() {
+  char to[1000];
+  int i = -100;
+  i = -i;
+  printf("%d", i);
+  // expand("a-z", to);
+  // expand("-a-z-", to);
+}
+
 void real(char to[], char from[]) {
   // Exercise 3-2. Write a function escape(s,t) that converts characters like newline and tab into visible escape
   // sequences like \n and \t as it copies the string t to s. Use a switch. Write a function for the other direction as
