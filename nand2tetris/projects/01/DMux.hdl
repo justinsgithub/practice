@@ -7,10 +7,16 @@
  * [a, b] = [in, 0] if sel == 0
  *          [0, in] if sel == 1
  *
+|  in   |  sel  |   a   |   b   |
+|   0   |   0   |   0   |   0   |
+|   0   |   1   |   0   |   0   |
+|   1   |   0   |   1   |   0   |
+|   1   |   1   |   0   |   1   |
+*/
+
 CHIP DMux {
     IN in, sel;
     OUT a, b;
 
     PARTS:
-    //// Replace this comment with your code.
 }
