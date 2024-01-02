@@ -8,11 +8,29 @@
  *       b if sel == 01
  *       c if sel == 10
  *       d if sel == 11
+|        a         |        b         | sel |       out        |
+| 0000000000000000 | 0000000000000000 |  0  | 0000000000000000 |
+| 0000000000000000 | 0000000000000000 |  1  | 0000000000000000 |
+| 0000000000000000 | 0001001000110100 |  0  | 0000000000000000 |
+| 0000000000000000 | 0001001000110100 |  1  | 0001001000110100 |
+| 1001100001110110 | 0000000000000000 |  0  | 1001100001110110 |
+| 1001100001110110 | 0000000000000000 |  1  | 0000000000000000 |
+| 1010101010101010 | 0101010101010101 |  0  | 1010101010101010 |
+| 1010101010101010 | 0101010101010101 |  1  | 0101010101010101 |
  */
 CHIP Mux4Way16 {
     IN a[16], b[16], c[16], d[16], sel[2];
     OUT out[16];
-    
+
     PARTS:
-    //// Replace this comment with your code.
+    And(a=sel[0], b=sel[1], out=dout); /* d = sel == 11 (if both are 1 than d is selected) */
+    Or(a=sel[0], b=sel[1], out=anotout); /* check if one or both is 1 */
+    Not(in=anotout, out=aout); /* a = sel == 00 (if both are 0 than a is selected)*/
+    And(a=sel[0], b=sel[0], out=maybeb); /* check if second bit is 1 */
+    Xor(a=sel[0], b=sel[1], out=borc); /* b or c if exactly one bit is 1 */
+    And(a=maybeb, b=borc, out=bout); /* b if second bit is 1 and exactly one bit is 1 */
+
+    Mux16(a=c, b=d, sel=dout, out=out1); /* out1 = d || c (c if dout is not 1)*/
+    Mux16(a=out1, b=b, sel=bout, out=out2); /* out2 = b || out1 (out1 if bout is not 1)*/
+    Mux16(a=out2, b=a, sel=aout, out=out); /* out = a || out2 (out2 if aout is not 1)*/
 }

@@ -10,8 +10,8 @@
 |  in   |  sel  |   a   |   b   |
 |   0   |   0   |   0   |   0   |
 |   0   |   1   |   0   |   0   |
-|   1   |   0   |   1   |   0   |
-|   1   |   1   |   0   |   1   |
+|   1   |   0   |   1   |   0   | (in AND NOT(sel)) AND (a AND NOT(b)) OR
+|   1   |   1   |   0   |   1   | (in AND sel) AND (NOT(a) AND b)
 */
 
 CHIP DMux {
@@ -19,4 +19,7 @@ CHIP DMux {
     OUT a, b;
 
     PARTS:
+    And(a=in, b=sel, out=b); /* if in and sel, b = 1 */
+    Xor(a=in, b=sel, out=inorsel); /* make sure either in or sel = 1, not both */
+    And(a=in, b=inorsel, out=a); /* if in or sel = 1, and in = 1, a = 1 */
 }
