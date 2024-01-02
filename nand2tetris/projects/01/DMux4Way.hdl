@@ -8,11 +8,37 @@
  *                [0, in, 0, 0] if sel == 01
  *                [0, 0, in, 0] if sel == 10
  *                [0, 0, 0, in] if sel == 11
+| in  | sel  |  a  |  b  |  c  |  d  |
+|  0  |  00  |  0  |  0  |  0  |  0  |
+|  0  |  01  |  0  |  0  |  0  |  0  |
+|  0  |  10  |  0  |  0  |  0  |  0  |
+|  0  |  11  |  0  |  0  |  0  |  0  |
+|  1  |  00  |  1  |  0  |  0  |  0  |
+|  1  |  01  |  0  |  1  |  0  |  0  |
+|  1  |  10  |  0  |  0  |  1  |  0  |
+|  1  |  11  |  0  |  0  |  0  |  1  |
  */
 CHIP DMux4Way {
     IN in, sel[2];
     OUT a, b, c, d;
 
     PARTS:
-    //// Replace this comment with your code.
+    And(a=in, b=in, out=isin);
+    And(a=sel[1], b=sel[1], out=s1);
+    And(a=sel[0], b=sel[0], out=s2);
+    Xor(a=sel[1], b=sel[0], out=only1);
+
+    Not(in=s1, out=ns1);
+    Not(in=s2, out=ns2);
+
+    And(a=sel[1], b=sel[0], out=isd);
+    And(a=only1, b=sel[1], out=isc);
+    And(a=only1, b=sel[0], out=isb);
+    And(a=ns1, b=ns2, out=isa);
+
+
+    And(a=isin, b=isd, out=d);
+    And(a=isin, b=isc, out=c);
+    And(a=isin, b=isb, out=b);
+    And(a=isin, b=isa, out=a);
 }
