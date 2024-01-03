@@ -4,12 +4,18 @@
 // File name: projects/02/HalfAdder.hdl
 /**
  * Computes the sum of two bits.
+|   a   |   b   | carry | sum  |
+|   0   |   0   |   0   |  0   |
+|   0   |   1   |   0   |  1   |
+|   1   |   0   |   0   |  1   |
+|   1   |   1   |   1   |  0   |
  */
 CHIP HalfAdder {
     IN a, b;    // 1-bit inputs
-    OUT sum,    // Right bit of a + b 
+    OUT sum,    // Right bit of a + b
         carry;  // Left bit of a + b
 
     PARTS:
-    //// Replace this comment with your code.
+    Xor(a=a, b=b, out=sum);
+    And(a=a, b=b, out=carry);
 }
