@@ -13,5 +13,8 @@ CHIP Bit {
     OUT out;
 
     PARTS:
-    //// Replace this comment with your code.
+    /* DFF output sent back into mux input to save state */
+    /* output is saved as memory until load is set to 1 and then new input is saved */
+    Mux(a=dffout, b=in, sel=load, out=muxout);
+    DFF(in=muxout, out=dffout, out=out);
 }
