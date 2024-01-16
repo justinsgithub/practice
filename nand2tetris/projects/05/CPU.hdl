@@ -4,33 +4,83 @@
 // File name: projects/05/CPU.hdl
 /**
  * The Hack Central Processing unit (CPU).
- * Parses the binary code in the instruction input and executes it according to the
- * Hack machine language specification. In the case of a C-instruction, computes the
- * function specified by the instruction. If the instruction specifies to read a memory
- * value, the inM input is expected to contain this value. If the instruction specifies
- * to write a value to the memory, sets the outM output to this value, sets the addressM
- * output to the target address, and asserts the writeM output (when writeM == 0, any
- * value may appear in outM).
- * If the reset input is 0, computes the address of the next instruction and sets the
- * pc output to that value. If the reset input is 1, sets pc to 0.
- * Note: The outM and writeM outputs are combinational: they are affected by the
- * instruction's execution during the current cycle. The addressM and pc outputs are
- * clocked: although they are affected by the instruction's execution, they commit to
+ * Parses the binary code in the instruction input and executes it according to the Hack machine language specification.
+ * In the case of a C-instruction, computes the function specified by the instruction.
+ *
+ * If the instruction specifies to read a memory value, the inM input is expected to contain this value.
+ *
+ * If the instruction specifies to write a value to the memory, sets the outM output to this value, sets the addressM
+ * output to the target address, and asserts the writeM output (when writeM == 0, any value may appear in outM).
+ *
+ * If the reset input is 0, computes the address of the next instruction and sets the pc output to that value.
+ *
+ * If the reset input is 1, sets pc to 0.
+ *
+ * Note: The outM and writeM outputs are combinational: they are affected by the instruction's execution during the current cycle.
+ * The addressM and pc outputs are clocked: although they are affected by the instruction's execution, they commit to
  * their new values only in the next cycle.
+ *
+ * i11accccccdddjjj = [15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0] = [...,d1,d2,d3,j1,j2,j3]
+ * (i)(11)(a)(cccccc)(ddd)(jjj)
+ * (instruction)(nada)(AorM)(computation)(dest)(jump)
  */
 CHIP CPU {
 
-    IN  inM[16],         // M value input  (M = contents of RAM[A])
-        instruction[16], // Instruction for execution
-        reset;           // Signals whether to restart the current
-                         // program (reset==1) or continue executing
-                         // the current program (reset==0).
+    IN  inM[16],         /* M value input  (M = contents of RAM[A]) */
+        instruction[16], /* Instruction for execution */
+        reset;           /* Signals whether to restart the current */
+                         /* program (reset==1) or continue executing */
+                         /* the current program (reset==0). */
 
-    OUT outM[16],        // M value output
-        writeM,          // Write to M? 
-        addressM[15],    // Address in data memory (of M)
-        pc[15];          // Address of next instruction
+    OUT outM[16],        /* M value output */
+        writeM,          /* Write to M? */
+        addressM[15],    /* Address in data memory (of M) */
+        pc[15];          /* Address of next instruction */
 
     PARTS:
-    //// Replace this comment with your code.
+    Not(in=instruction[15], out=isAinstruction); /* if MSB = 0, its an A instruction */
+    Not(in=instruction[12], out=isAinput); /* if a=bit = 0, it uses A register, not inM */
+    Not(in=isAinstruction, out=isCinstruction);
+
+    And(a=instruction[3], b=isCinstruction, out=writeM);
+    And(a=instruction[4], b=isCinstruction, out=feedD);
+
+    /* PC load logic */
+    Or(a=neg, b=zero, out=notPositive); /* if alu outputs negative or 0, output is not positive */
+    Not(in=notPositive, out=isPositive); /* the opposite of not positive is positive */
+    And(a=instruction[2], b=neg, out=negJump);
+    And(a=instruction[1], b=zero, out=zeroJump);
+    And(a=instruction[0], b=isPositive, out=posJump);
+    Or(a=negJump, b=zeroJump, out=jumpOrJump);
+    Or(a=jumpOrJump, b=posJump, out=doJump);
+    And(a=isCinstruction, b=doJump, out=doLoad);
+
+    Mux16(a=aluout, b=instruction, sel=isAinstruction, out=AregIn);
+
+    And(a=isAinput, b=isCinstruction, out=a);
+
+    Or(a=a, b=isAinstruction, out=isA);
+
+    Mux16(a=inM, b=Areg, sel=isA, out[11]=czx, out[10]=cnx, out[9]=czy, out[8]=cny, out[7]=cf, out[6]=cno, out=y);
+
+    Or(a=isAinstruction, b=instruction[5], out=loadAreg);
+
+    ARegister(in=AregIn, load=loadAreg, out=Areg, out[0..14]=addressM); /* built in register chip with gui side effects */
+
+    DRegister(in=aluout, load=feedD, out=x); /* built in register chip with gui side effects*/
+
+    PC(in=Areg, inc=true, load=doLoad, reset=reset, out[0..14]=pc); /* keeps count for address of next instruction */
+
+    And(a=isCinstruction, b=instruction[11], out=azx);
+    And(a=isCinstruction, b=instruction[10], out=anx);
+    And(a=isCinstruction, b=instruction[9], out=zy);
+    And(a=isCinstruction, b=instruction[8], out=ny);
+    And(a=isCinstruction, b=instruction[7], out=f);
+    And(a=isCinstruction, b=instruction[6], out=no);
+
+    Or(a=isAinstruction, b=azx, out=zx);
+    Or(a=isAinstruction, b=anx, out=nx);
+
+    /* zr if output == 0, ng if output < 0*/
+    ALU(x=x , y=y, zx=zx, nx=nx, zy=zy, ny=ny, f=f, no=no, out=aluout, out=outM, zr=zero, ng=neg);
 }
