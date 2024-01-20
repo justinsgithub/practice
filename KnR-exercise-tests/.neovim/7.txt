@@ -1,0 +1,190 @@
+echo '/*\nRun the “hello, world” program on your system. Experiment with leaving out parts of the program, to see what error messages you get.\n*/' > 1/exercises/1-1/main.c
+
+echo '/*\nExperiment to find out what happens when printfs argument contains \c, where c is some character not listed above.\n*/' > 1/exercises/1-2/main.c
+
+echo '/*\nModify the temperature conversion program to print a heading above the table.\n*/' > 1/exercises/1-3/main.c
+
+echo '/*\nWrite a program to print the corresponding Celsius to Fahrenheit table.\n*/' > 1/exercises/1-4/main.c
+
+echo '/*\nModify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.\n*/' > 1/exercises/1-5/main.c
+
+echo '/*\nVerify that the expression getchar() != EOF is 0 or 1.\n*/' > 1/exercises/1-6/main.c
+
+echo '/*\nWrite a program to print the value of EOF.\n*/' > 1/exercises/1-7/main.c
+
+echo '/*\nWrite a program to count blanks, tabls, and newlines.\n*/' > 1/exercises/1-8/main.c
+
+echo '/*\nWrite a program to copy its input to its output, replacing each string of one or more blanks by a single blank.\n*/' > 1/exercises/1-9/main.c
+
+echo '/*\nWrite a program to copy its input to its output, replacing each tab by \t, each backspace by \b, and each backslash by \\. This makes tabs and backspaces visible in an unambiguous way.\n*/' > 1/exercises/1-10/main.c
+
+echo '/*\nHow would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?\n*/' > 1/exercises/1-11/main.c
+
+echo '/*\nWrite a program that prints its input one word per line.\n*/' > 1/exercises/1-12/main.c
+
+echo '/*\nWrite a program to print a histogram of the lengths of words in its input. It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging.\n*/' > 1/exercises/1-13/main.c
+
+echo '/*\nWrite a program to print a histogram of the frequencies of different characters in its input.\n*/' > 1/exercises/1-14/main.c
+
+echo '/*\nRewrite the temperature conversion program of Section 1.2 to use a function for conversion.\n*/' > 1/exercises/1-15/main.c
+
+echo '/*\nRewrite the main routine of the longest-line program so it will correctly print the length of arbitrarily long input lines, and as much as possible of the text.\n*/' > 1/exercises/1-16/main.c
+
+echo '/*\nWrite a program to print all input lines that are longer than 80 characters.\n*/' > 1/exercises/1-17/main.c
+
+echo '/*\nWrite a program to remove trailing blanks and tabs from each line of input, and to delete entirely blank lines.\n*/' > 1/exercises/1-18/main.c
+
+echo '/*\nWrite a function reverse(s) that reverses the character string s. Use it the write a program that reverses its input a line at a time.\n*/' > 1/exercises/1-19/main.c
+
+echo '/*\nWrite a program detab that replaces tabs in the input with the proper number of blanks to space to the next tab stop. Assume a fixed set of tab stops, say every n columns. Should n be a variable or a symbolic parameter?\n*/' > 1/exercises/1-20/main.c
+
+echo '/*\nWrite a program entab that replaces strings of blanks by the minimum number of tabs and blanks to achieve the same spacing. Use the same tab stops as for detab. When either a tab or a single blank would suffice to reach a tab stop, which should be given preference?\n*/' > 1/exercises/1-21/main.c
+
+echo '/*\nWrite a program to “fold” long input lines into two or more shorter lines after the last non-blank character that accors before the n-th column of input. Make sure your program does something intelligent with very long lines, and if there are no blanks or tabs before the specified column.\n*/' > 1/exercises/1-22/main.c
+
+echo '/*\nWrite a program to remove all comments from a C program. Don’t forget to handle quoted strings and character constants properly. C comments do not nest.\n*/' > 1/exercises/1-23/main.c
+
+echo '/*\nWrite a program to check a C program for rudimentary syntax errors like unbalanced parentheses, brackets, and braces. Don’t forget about quotes, both single and double, escape sequences, and comments. (This program is hard if you do it in full generality.)\n*/' > 1/exercises/1-24/main.c
+
+echo '/*\nWrite a program to determine the ranges of char, short, int, and long variables, both signed and unsigned, by printing appropriate values form standard headers and by direct computation. Harder if you compute them: determine the ranges of the various floating point types.\n*/' > 2/exercises/2-1/main.c
+
+echo '/*\nWrite a loop equivalent to the for loop above without using && or	 	.\n*/' > 2/exercises/2-2/main.c
+echo '/*\nWrite the function htoi(s), which converts a string of hexadecimal digits (including an optional 0x or 0X) into its equivalent integer value. The allowable digits are 0 through 9, a through f, and A through F.\n*/' > 2/exercises/2-3/main.c
+
+echo '/*\nWrite an alternate version of squeeze(s1,s2) that deletes each character in s1 that matches any character in the string s2.\n*/' > 2/exercises/2-4/main.c
+
+echo '/*\nWrite the function any(s1,s2), which returns the first location in the string s1 where any character from the string s2 occurs, or -1 if s1 contains no characters from s2. (The standard library function strpbrk does the same job but returns a pointer to the location.)\n*/' > 2/exercises/2-5/main.c
+
+echo '/*\nWrite a functin setbits(x,p,n,y) that returns x with the n bits that begin at position p set to the rightmost n bits of y, leabving the other bits unchanged.\n*/' > 2/exercises/2-6/main.c
+
+echo '/*\nWrite a function invert(x,p,n) that returns x with the n bits that begin a position p inverted (i.e., 1 changed into 0 and vice versa), leaving the others unchanged.\n*/' > 2/exercises/2-7/main.c
+
+echo '/*\nWrite a function rightrot(x,n) that returns the value of the integer x rotated to the right by n bit positions.\n*/' > 2/exercises/2-8/main.c
+
+echo '/*\nIn a two’s complement number system, x &= (x-1) deletes the rightmost 1-bit in x. Explain why. Use this observation to write a faster version of bitcount.\n*/' > 2/exercises/2-9/main.c
+
+echo '/*\nRewrite the function lower, which converts upper case letters to lower case, with a conditional expression instead of if-else.\n*/' > 2/exercises/2-10/main.c
+
+echo '/*\nOur binary search makes two tests inside the loop, when one would suffice (at the price of more tests outside). Write a version with only one test inside the loop and measure the difference in run-time.\n*/' > 3/exercises/3-1/main.c
+
+echo '/*\nWrite a function escape(s,t) taht converts characters like newline and tab into visible escape sequences like \n and \t as it copies the string t to s. Use a switch. Write a function for the other direction as well, converting escape sequences into the real characters.\n*/' > 3/exercises/3-2/main.c
+
+echo '/*\nWrite a function expand(s1,s2) that expands shorthand notations like a-z in the string s1 into the equivalent complete list abc...xyz in s2. Allow for letters of either case and digits, and be prepared to handle cases like a-b-c and a-z0-9 and -a-z. Arrange that a leading or trailing - is taken literally.\n*/' > 3/exercises/3-3/main.c
+
+echo '/*\nIn a two’s complement number representation, our version of itoa does not handle the largest negative number, that is, the value of n equal to − ( 2 wordsize − 1) . Explain why not. Modify it to print that value correctly, regardless of the machine on which it runs.\n*/' > 3/exercises/3-4/main.c
+
+echo '/*\nWrite the function itob(n,s,b) that converts the integer n into a base b character representation in the string s. In particular, itob(n,s,16) formats n as a hexadecimal integer in s.\n*/' > 3/exercises/3-5/main.c
+
+echo '/*\nWrite a version of itoa that accepts three arguments instead of two. The third argument is a minimum field width; the converted number must be padded with blanks on the left if necessary to make it wide enough.\n*/' > 3/exercises/3-6/main.c
+
+echo '/*\nWrite the function strindex(s,t), which returns the position of the rightmost occurance of t in s, or -1 if there is none.\n*/' > 4/exercises/4-1/main.c
+
+echo '/*\nExtend atof to handle scientific notation of the form 123.45e-6.\n*/' > 4/exercises/4-2/main.c
+
+echo '/*\nGiven the basic framework, it’s straightforward to extend the calculator. Add the modulus (%) operator and provisions for negative numbers.\n*/' > 4/exercises/4-3/main.c
+
+echo '/*\nAdd commands to print the top elements of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack.\n*/' > 4/exercises/4-4/main.c
+
+echo '/*\nAdd access to library functions like sin, exp, and pow. See <math.h> in Appendix B, Section 4.\n*/' > 4/exercises/4-5/main.c
+
+echo '/*\nAdd commands for handling variables. (It’s easy to provide twenty-six variables with single-letter names) Add a variable for the most recently printed value.\n*/' > 4/exercises/4-6/main.c
+
+echo '/*\nWrite a routine ungets(s) that will push back an entire string onto the input. Should ungets know about buf and bufp, or should it just use ungetch?\n*/' > 4/exercises/4-7/main.c
+
+echo '/*\nSuppose that there will never be more than one character of pushback. Modify getch and ungetch accordingly.\n*/' > 4/exercises/4-8/main.c
+
+echo '/*\nOur getch and ungetch do not handle a pushed-back EOF correctly. Decide what their properties ought to be if EOF is pushed back, then implement your design.\n*/' > 4/exercises/4-9/main.c
+
+echo '/*\nAn alternate organization uses getline to read an entire input line; this makes getch and ungetch unnecessary. Revise the calculator to use this approach.\n*/' > 4/exercises/4-10/main.c
+
+echo '/*\nModify getop so that it doesn’t need to use ungetch. Hint: use an internal static variable.\n*/' > 4/exercises/4-11/main.c
+
+echo '/*\nAdapt the ideas of printd to write a recursive version of itoa; that is, convert an integer into a string by calling a recursive routine.\n*/' > 4/exercises/4-12/main.c
+
+echo '/*\nWrite a recursive version of the function reverse(s), which reverses the string s in place.\n*/' > 4/exercises/4-13/main.c
+
+echo '/*\nDefine a macro swap(t,x,y) that interchanges two arguments of type t. (Block structure will help)\n*/' > 4/exercises/4-14/main.c
+
+echo '/*\nAs written, getint treats a + or - not followed by a digit as a valid representation of zero. Fix it the push such a character back on the input.\n*/' > 5/exercises/5-1/main.c
+
+echo '/*\nWrite getfloat, the floating-point analog of getint. What type does getfloat return as its function value?\n*/' > 5/exercises/5-2/main.c
+
+echo '/*\nWrite a pointer version of the function strcat that we showed in Chapter 2: strcat(s,t) copies the string t to the end of s.\n*/' > 5/exercises/5-3/main.c
+
+echo '/*\nWrite a function strend(s,t), which returns 1 if the string t occurs at the end of the string s, and zero otherwise.\n*/' > 5/exercises/5-4/main.c
+
+echo '/*\nWrite versions of the library functions strncpy, strncat, and strncmp, which operate on at most the first n characters of their argument strings. For example, strncpy(s,t,n) copies at most n characters of t to s.\n*/' > 5/exercises/5-5/main.c
+
+echo '/*\nRewrite appropriate programs from earlier chapters and exercises with pointers instead of array indexing. Good possibilities include getline (Chapters 1 and 4), atoi, itoa, and their variants (Chapters 2,3, and 4), reverse (Chapter 3), and strindex and getop (Chapter 4).\n*/' > 5/exercises/5-6/main.c
+
+echo '/*\nRewrite readlines to store lines in an array supplied by main, rather than calling alloc to maintain storage. How much faster is the program?\n*/' > 5/exercises/5-7/main.c
+
+echo '/*\nThere is no error checking in day_of_year or month_day. Remedy this defect.\n*/' > 5/exercises/5-8/main.c
+
+echo '/*\nRewrite the routines day_of_year and month_day with pointers instead of indexing.\n*/' > 5/exercises/5-9/main.c
+
+echo '/*\nModify the programs entab and detab (written as exercises in Chapter 1) to accept a list of tab stops as arguments. Use the default tab settings if there are no arguments.\n*/' > 5/exercises/5-11/main.c
+
+echo '/*\nExtend entab and detab to accept the shorthand entab -m+n to mean tab stops ever n columns, starting at column m. Choose convenient (for the user) default behavior.\n*/' > 5/exercises/5-12/main.c
+
+echo '/*\nWrite the program tail, which prings the last n lines of its input. By default, n is 10, let us say, but it can be changed by an optional argument, so that tail -n prints the last n lines. The program should behave rationally no matter how reasonable the input or the value of n. Write the program so it makes the best use of available storage; lines should be stored as in the sorting program of section 5.6, not in a two-dimensional array of fixed size.\n*/' > 5/exercises/5-13/main.c
+
+echo '/*\nModiufy the sort program to handle a -r flag, which indicates sorting in reverse (decreasing) order. Be sure that -r works with -n.\n*/' > 5/exercises/5-14/main.c
+
+echo '/*\nAdd the option -f to fold upper and lower case together, so that case distinctions are not made during sorting; for example, a and A compare equal.\n*/' > 5/exercises/5-15/main.c
+
+echo '/*\nAdd the -d (“directory order”) option, which makes comparisons only on letters, numbers, and blanks. Make sure it works in conjunction with -f.\n*/' > 5/exercises/5-16/main.c
+
+echo '/*\nAdd a field-handling capability, so sorting may be done on fields within lines, each field sorted according to an independent set of options. (The index for this book was sorted with -df for the index category and -n for page numbers.)\n*/' > 5/exercises/5-17/main.c
+
+echo '/*\nMake dcl recover from input errors.\n*/' > 5/exercises/5-18/main.c
+
+echo '/*\nModify undcl so that it does not add redudant parentheses to declarations.\n*/' > 5/exercises/5-19/main.c
+
+echo '/*\nExpand dcl to handle declarations with function argument types, qualifiers like const and so on.\n*/' > 5/exercises/5-20/main.c
+
+echo '/*\nOur version of getword does not properly handle underscores, string constants, comments, or preprocessor control lines. Write a better version.\n*/' > 6/exercises/6-1/main.c
+
+echo '/*\nWrite a program that reads a C program and prints in alphabetical order each group of variable names that are identical in the first 6 characters, but different somewhere thereafter. Don’t count words within strings and comments. Make 6 a parameter that can be set from the command line.\n*/' > 6/exercises/6-2/main.c
+
+echo '/*\nWrite a cross-referencer that prints a list of all words in a document, and for each word, a list of the line numbers on which it occurs. Remove noise words like “the”, “and”, and so on.\n*/' > 6/exercises/6-3/main.c
+
+echo '/*\nWrite a program that prints the distinct words in its input sorted into decreasing order of frequency of occurence. Precede each word by its count.\n*/' > 6/exercises/6-4/main.c
+
+echo '/*\nWrite a function undef that will remove a name and definition from the table maintained by lookup and install.\n*/' > 6/exercises/6-5/main.c
+
+echo '/*\nImplement a simple version of the #define processor (i.e. no arguments) suitable for use with C programs, based on the routines of this section. You may also find getch and ungetch helpful.\n*/' > 6/exercises/6-6/main.c
+
+echo '/*\nWrite a program that converts upper case to lower or lower case to upper, depending on the name it is invoked with, as found in argv[0].\n*/' > 7/exercises/7-1/main.c
+
+echo '/*\nWrite a program that will print arbitrary input in a sensible way. As a minimum, it should print non-graphic characters in octal or hexadecimal according to local custon, and break long text lines.\n*/' > 7/exercises/7-2/main.c
+
+echo '/*\nRevise minprintf to handle more of the other facilities of printf.\n*/' > 7/exercises/7-3/main.c
+
+echo '/*\nWrite a private version of scanf analogous to minprintf from the previous section.\n*/' > 7/exercises/7-4/main.c
+
+echo '/*\nRewrite the postfix calculator of Chapter 4 to use scanf and/or sscanf to do the input and number conversion.\n*/' > 7/exercises/7-5/main.c
+
+echo '/*\nWrite a program to compare two files, printing the first l;ine where they differ.\n*/' > 7/exercises/7-6/main.c
+
+echo '/*\nModify the patter finding program of Chapter 5 to take its input from a set of named files or, if no more files are named as arguments, from the standard input. Should the file name be printed when a matching line is found?\n*/' > 7/exercises/7-7/main.c
+
+echo '/*\nWrite a program to print a set of files, starting each now one on a new page, with a title and a running page count for each file.\n*/' > 7/exercises/7-8/main.c
+
+echo '/*\nFunctions like isupper can be implemented to save space or to save time. Explore both possibilities.\n*/' > 7/exercises/7-9/main.c
+
+echo '/*\nRewrite the program cat from Chapter 7 using read, write, open, and close instead of the standard library equivalents. Perform experiments to determine the relative speeds of the two versions.\n*/' > 8/exercises/8-1/main.c
+
+echo '/*\nRewrite fopen and _fillbuf with fields instead of explicit bit operations. Compare code size and execution speed.\n*/' > 8/exercises/8-2/main.c
+
+echo '/*\nDesign and write _flushbuf, fflush, and fclose.\n*/' > 8/exercises/8-3/main.c
+
+echo '/*\nThe standard library function int fseek(FILE *fp, long offset, int origin) is identical to lseek except that fp is a file pointer instead of a file descriptor and the return value is an int status, not a position. Write fseek. Make sure that yout fseek coordinates properly with the buffering done for the other functions of the library.\n*/' > 8/exercises/8-4/main.c
+
+echo '/*\nModify the fsize program to print the other information contained in the inode entry.\n*/' > 8/exercises/8-5/main.c
+
+echo '/*\nThe standard library function calloc(n,size) returns a pointer to n objects of the size size, with the storage initialized to zero. Write calloc, by calling malloc or by modifying it.\n*/' > 8/exercises/8-6/main.c
+
+echo '/*\nmalloc accpets a size request without checking its plausibility; free believes that the block it is asked to free contains a valid size field. Improve these routines so they take more pains with error checking.\n*/' > 8/exercises/8-7/main.c
+
+echo '/*\nWrite a routine bfree(p,n) that will free an arbitrary block p of n characters into the free list maintained by malloc and free. By using bfree, a user can add a static or external array to the free list at any time.\n*/' > 8/exercises/8-8/main.c

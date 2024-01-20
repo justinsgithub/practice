@@ -16,3 +16,5 @@ Each file {num}.txt correlates to command used at that {num}. I ran one command 
 3. `%s/^$\n//g`
 4. `%s/^\([0-9]-[0-9]*\).*$/\1/g`
 5. `%s$\(\([0-9]\)-[0-9]*\)$mkdir -p \2/exercises/\1`
+6. didn't run command on this file. Copied 3.txt to 7.txt to edit next
+7. `%s?\(\([0-9]\)-[0-9]*\) \(.*$\)?echo '/*\\n\3\\n*/' > \2/exercises/\1/main.c`
