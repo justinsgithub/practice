@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 # Help
 
 ## Running the tests
