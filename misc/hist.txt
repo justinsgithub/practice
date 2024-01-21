@@ -1,0 +1,1792 @@
+  +
+  .
+  ..
+  ../
+  ../../../../
+  1ls
+  ^[[200~sudo apt-get install blueman
+  ../../2/exercises
+  ../../3/exercises
+  ../../4/exercises
+  ../../5/exercises
+  ../../6/exercises
+  ../../7/exercises
+  ../../8/exercises
+  alias cd="echo wrong command"
+  alias nvim-astro="NVIM_APPNAME=astronvim nvim"; nvim-astro
+  ./a.out
+  ./a.out 
+  ./a.out > blah
+  ./a.out < test/.input.txt
+  apt search camera
+  apt search config
+  apt search dbus-launch
+  apt search gnome-boxes
+  apt search -n clang
+  apt search -n clangd
+  apt search -n clang-format
+  apt search -n configurator
+  apt search -n java
+  apt search -n kdenlive
+  apt search -n lazygit
+  apt search -n ncurses
+  apt search -n obs
+  apt search --N obs
+  apt search -N obs
+  apt search -n smile
+  apt search -n vim
+  apt search ob
+  apt search obs
+  apt search pulseaudio
+  apt search smile
+  apt search youtube
+  asdf install nodejs 20.9.0\nasdf global nodejs 20.9.0\nwhich node\nnode -v\nnpm install -g yarn
+  asdf install ruby 3.2.2\nasdf global ruby 3.2.2\ngem update --system && asdf install nodejs 20.9.0\nasdf global nodejs 20.9.0\nwhich node\nnode -v\nnpm install -g yarn
+  asdf plugin add ruby\nasdf plugin add nodejs
+  at
+  at -l
+  ../backend/
+  bash
+  bash ~/bin/test2.sh
+  ./bin/bundle install 
+  ./bin/deploy.zsh "add fancy terminal"
+  ./bin/deploy.zsh "add verify domain to github pages"
+  ./bin/deploy.zsh "change gh file path"
+  ./bin/deploy.zsh "edit CNAME"
+  ./bin/deploy.zsh "finish Lua lang overview"
+  ./bin/deploy.zsh "first commit"
+  ./bin/deploy.zsh "github pages"
+  ./bin/deploy.zsh "publish github pages video"
+  ./bin/deploy.zsh "rules on ricing"
+  ./bin/deploy.zsh "uploaded github domain verification video"
+  ./bin/dev
+  ./bin/dev 
+  bin/rails css:install:tailwind
+  bin/rails db:migrate
+  ./bin/rails dev
+  bin/rails generate controller Expenses index --skip-routes
+  bin/rails generate controller Home index --skip-routes
+  bin/rails generate controller Pages index --skip-routes
+  bin/rails generate controller SpotifySongs index --skip-routes
+  bin/rails generate mailer Testmail
+  ./bin/rails server
+  bin/rails server\n
+  blueman
+  blueman-manager
+  brave-browser
+  brew install ccls
+  brew install jesseduffield/lazygit/lazygit\n
+  brew install marksman\n
+  brew install vim
+  brew uninstall ruby
+  brew uninstall vim
+  bundle
+  bundle info foreman
+  bundle install
+  c
+  ../../C
+  ca getting-started
+  cargo install --git https://github.com/neovide/neovide\n
+  cargo install stylua
+  cat 1-10/main.h
+  cat 1-10/makefile
+  cat 1-12/./makefile
+  cat 2-1/makefile
+  cat 8/exercises/8-8/main.c
+  cat .altlinux4.1.draft.txt
+  cat a.out
+  cat basics.lua 
+  cat bin/bundle
+  cat ./bin/deploy.zsh
+  cat bin/deploy.zsh
+  cat ./bin/dev
+  cat bin/dev
+  cat bin/rails
+  cat ~/bin/test
+  cat ~/bin/test2.sh
+  cat bin/test2.sh
+  cat ~/BLAH
+  cat ~/BLAH | wc -l
+  cat chunks.lua
+  cat CNAME
+  cat config/application.rb
+  cat ~/.config/zsh/.zshrc
+  cat count_blanks_tabs_newlines.c
+  cat ~/.cronlogs
+  cat ~/Desktop/cronlogs
+  cat docker-compose.yml
+  cat /etc/crontab
+  cat frontend/yarn.lock
+  cat frontend/yarn.lock | grep nodemailer
+  cat Gemfile
+  cat .git
+  cat .gitattributes
+  cat ~/Github/justinsgithub/dotfiles/bundler/.bundle/config
+  cat ~/Github/justinsgithub/dotfiles/neovim/.config/nvim/lua/plugins/trees.lua
+  cat ~/Github/justinsgithub/text-me/scripts/email.ts
+  cat ~/Github/justinsgithub/text-me/src/helpers/email.ts
+  cat ../.gitignore
+  cat .gitignore
+  cat .gitlab-ci.yml
+  cat global-vars.lua
+  cat history.txt
+  cat history.txt | wc 
+  cat history.txt | wc -l
+  cat /home/justin/.local/bin/lvim
+  cat init.lua
+  cat input.txt
+  cat install.sh
+  cat ~justinsgithub/prisma-nextjs/.gitignore
+  cat LICENSE
+  cat lua/config
+  cat lua/config/./lazy.lua
+  cat lua/config/options.lua
+  cat lua/oh-my-lazyvim/commands.lua
+  cat lua/oh-my-lazyvim/plugins/productivity.lua
+  cat lua/_oml/plugins/buffers-tabs/_bufferline.lua
+  cat lua/_oml/theme-daddy/colorscheme/themes/custom.lua
+  cat lua/plugins/buffers-tabs/_bufferline.lua
+  cat lua/plugins/.gitignore
+  cat lua/plugins/.gitignore 
+  cat lua/plugins/misc/_dial.lua
+  cat lua/plugins/project-management/_vim-wakatime.lua
+  cat lua/user/config/keymaps.lua
+  cat lua/user/config/keymaps.lua 
+  cat main.c
+  cat makefile
+  cat markdown/programming-languages/lua/index.md
+  cat markdown/software/vim/index.md
+  cat mkdocs.yml
+  cat neovim/.config/nvim/init.lua
+  cat next-app/scripts/email.ts
+  cat next-app/src/helpers/email.ts
+  cat ../__nvim/init.lua
+  cat Oh-My-LazyVim/init.lua
+  cat package.json
+  cat pnpm-lock.yaml
+  cat railsapp/Dockerfile
+  cat README.md
+  cat requirements.txt
+  cat /root/.docker/config.json
+  cat .ruby-version 
+  cat scripts/crontab
+  cat scripts/email.ts
+  cat scripts/imap.py
+  cat scripts/test.sh
+  cat test.c
+  cat test/eof_value.txt
+  cat test/test.sh
+  cat ./tools/HardwareSimulator.sh
+  cat .vim/vimrc
+  cat yarn build:css
+  cat yarn.lock
+  cat zsh/.config/zsh/.zcompdump-pop-os-5.8.1.zwc
+  cc 1-10.c && ./a.out
+  cc 1-11.c && ./a.out
+  cc 1-12.c && ./a.out
+  cc 1-13.c && ./a.out
+  cc 1-14.c && ./a.out
+  cc 1-15.c && ./a.out
+  cc 1-16.c && ./a.out
+  cc 1-16.c && ./a.out < test-file.txt
+  cc 1-17.c && ./a.out
+  cc 1-17.c && ./a.out < input-file.txt
+  cc 1-17.c && ./a.out < test-file.txt
+  cc 1-18.c && ./a.out < input-file.txt
+  cc 1-18.c && ./a.out < input-file.txt > output-file.txt
+  cc 1-19.c && ./a.out < input-file.txt
+  cc 1-19.c && ./a.out < input-file.txt > output-file.txt
+  cc 1-1.c
+  cc 1-2.c && ./a.out
+  cc 1-3.c && ./a.out
+  cc 1-4.c && ./a.out
+  cc 1-5.c && ./a.out
+  cc 1-6.c && ./a.out
+  cc 1-8.c && ./a.out
+  cc 1-9.c && ./a.out
+  cc count_blanks_tabs_newlines.c
+  cc --help
+  cc longest-line.c && ./a.out
+  cc main.c
+  cc main.c && ./a.out 
+  cc test.c 
+  cd
+  cd 
+  cd -
+  cd ..
+  cd 01
+  cd 01/
+  cd 1
+  cd app
+  cd app/
+  cd backend
+  cd backend 
+  cd backend/
+  cd backend/app/
+  cd backend/app/app/
+  cd blah/
+  cd blqh
+  cd bubble-pop/
+  cd c
+  cd c/
+  cd C
+  cd chapter-1
+  cd chapter-1/
+  cd .config/
+  cd ~config
+  cd .config/nvim
+  cd .config/nvim/
+  cd ~/.config/nvim/
+  cd ~config/nvim
+  cd .config/wezterm/
+  cd ~config/wezterm
+  cd Desktop/
+  cd ../docs
+  cd ~docs
+  cd docs/
+  cd Documents/
+  cd Documents/pdf
+  cd Documents/pdf/
+  cd ../dotfiles/
+  cd ~dotfiles
+  cd dotfiles
+  cd dotfiles/
+  cd ~dotfiles/neovim
+  cd ~dotfiles/neovim/.config/nvim
+  cd Downloads/
+  cd dreams
+  cd exercises/
+  cd exercises/1-1/
+  cd exercism/
+  cd exercism/c/hello-world/
+  cd frontend
+  cd frontend/
+  cd frontend/api/
+  cd ../frontend-debug/
+  cd frontend-debug/
+  cd G
+  cd getting-started/
+  cd ~github
+  cd ~/Github/
+  cd Github/
+  cd Github/docker-credential-helpers/
+  cd Github/hobby/
+  cd Github/hobby/old/
+  cd Github/justinsgithub/
+  cd ~/Github/justinsgithub/C/
+  cd Github/justinsgithub/C/the-c-programming-language/
+  cd ~/Github/justinsgithub/dotfiles/
+  cd Github/justinsgithub/dotfiles/
+  cd Github/justinsgithub/justindevelops/
+  cd Github/justinsgithub/te
+  cd Github/justinsgithub/terminal-typing-tutor/
+  cd ~/Github/justinsgithub/text-me/
+  cd Github/justinsgithub/text-me/
+  cd Github/justinsgithub/thetextingapp/
+  cd Github/justinsgithub/typing-test/
+  cd Github/l
+  cd Github/LazyVim/
+  cd Github/practice/
+  cd Github/practice/nand2tetris/
+  cd ~/Github/practice/the-c-programming-language
+  cd Github/temp/
+  cd Github/thetextingapp/
+  cd ~/Github/wezterm/
+  cd ~G/j/
+  cd google-locked/
+  cd hello-world/
+  cd hobby/
+  c dju
+  cd ~justin
+  cd ~justindevelops
+  cd justindevelops/
+  cd ../justindevelops/src/languages/lua/
+  cd ~justinsgithu
+  cd ~justinsgithub
+  cd justinsgithub/
+  cd ~justinsgithub/justindevelops
+  cd justinsgithub/justindevelops/
+  cd ../justinsgithub/prisma-nextjs/
+  cd ~justinsgithub/prisma-nextjs
+  cd justinsgithub/prisma-nextjs/
+  cd ~justinsgithub/terminal-typing-tutor
+  cd justinsgithub/thetextingapp/
+  cd KnR-exercise-tests
+  cd KnR-exercise-tests/
+  cd "k\&r-exercise-tests"
+  cd "k\&r-exercise-tests/"
+  cd 'k\&r-exercise-tests/'
+  cd k\&r-exercise-tests/
+  cd k\&r-exercise-tests/'
+  cd languages/lua/
+  cd languages/lua/getting-started/
+  cd liked/
+  cd lua/
+  cd Misc/
+  cd mkdocs-material/
+  cd monokai-pro.nvim/
+  cd mp3-player
+  cd mp3-player/
+  cd Music/
+  cd Music/spotify/playlists/liked/
+  cd Music/spotify/playlists/mp3-player/
+  cd nand2tetris
+  cd nand2tetris/
+  cd\necho '. "$HOME/.asdf/asdf.sh"' >> ~/.config/zsh/.zshrc\necho '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.config/zsh/.zshrc\necho 'export EDITOR="code --wait"' >> ~/.config/zsh/.zshrc\nexec $SHELL
+  cd neodev.nvim/
+  cd next-app/
+  cd\ngit clone https://github.com/excid3/asdf.git ~/.asdf\necho '. "$HOME/.asdf/asdf.sh"' >> ~/.zshrc\necho '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.zshrc\necho 'legacy_version_file = yes' >> ~/.asdfrc\necho 'export EDITOR="code --wait"' >> ~/.zshrc\nexec $SHELL
+  cd nvim
+  cd nvim-spectre/
+  cd objects/
+  cd Oh-My-LazyVim/
+  cd ov
+  cd overview/
+  cd pdf/
+  cd Pictures/
+  cd Pictures/yt-thumbnails/
+  cd ../../practice/
+  cd practice
+  cd practice/
+  cd ../prisma-nextjs/
+  cd prisma-nextjs/
+  cd projects/
+  cd projects/00/
+  cd railsapp/
+  cd random
+  \cd /run/user/1000/gvfs/mtp:host=Google_Pixel_4_9B071FFAZ006HQ/Internal shared storage/Music\n
+  cd "/run/user/1000/gvfs/mtp:host=Google_Pixel_4_9B071FFAZ006HQ/Internal shared storage/Music"\n
+  cd /run/user/1000/gvfs/mtp:host=Google_Pixel_4_9B071FFAZ006HQ/Internal shared storage/Music\n
+  cd /run/user/1000/gvfs/mtp:host=Google_Pixel_4_9B071FFAZ006HQ\n
+  cd scripts/
+  cd spotify/playlists/
+  cd src/
+  cd src/languages/lua/overview/
+  cd tail
+  cd tailwindcss/
+  cd temp/
+  cd terminal-typing-tutor/
+  cd testing/
+  cd text-me/
+  cd the-c-programming-language
+  cd the-c-programming-language/
+  cd thetextingapp/
+  cd types/
+  cd types/wezterm/
+  cd typing-test/
+  cd /usr/local/bin && \                                                            
+  cd Videos/
+  cd Videos/obs/
+  cd wezterm
+  cd wezterm/
+  cd wezterm-types-dotfiles/
+  cd writings/
+  cd youtube/
+  cd youtube/bubble/
+  chmod +x ~/bin/test2.sh
+  chmod +x ~/bin/test.sh
+  chmod +x random/bg-test.sh
+  chmod +xrw node_modules
+  chmod +x ~scripts/format-mp3-song.sh
+  chmod +x test.sh
+  chmod +x ./tools/Assembler.sh
+  chmod +x ./tools/cpuemulator
+  chmod +x ./tools/HardwareSimulator.sh
+  chmod +x ./tools/JackCompiler.sh
+  chmod +x ./tools/TextComparer.sh
+  chown justin .nuxt
+  chown -R justin .nuxt
+  clangd --help
+  clangd help
+  clangd --version
+  clang-format --dump-config 
+  clang-format -style=llvm -dump-config > .clang-format\n
+  clear
+  cmake --version
+  cookiecutter https://github.com/tiangolo/full-stack-fastapi-postgresql\n
+  cookiecutter https://github.com/whythawk/full-stack-fastapi-postgresql
+  cookiecutter https://github.com/whythawk/full-stack-fastapi-postgresql\n
+  copyfile lua/_oml/plugins/buffers-tabs/_bufferline.lua
+  cp 0r
+  cp 1-1/./main.h ../
+  cp 1-1/./makefile ../
+  cp 1-1/./test_main.c ../
+  cp ~/bin/test.sh ~/bin/test2.sh
+  cp CNAME docs/CNAME
+  cp ~/Documents/monkeytype.txt .
+  cp ~dotfiles/wezterm/.config/wezterm/wezterm.lua wezterm
+  cp Downloads/nand2tetris.zip Github/practice/nand2tetris
+  cp .gitignore next-app
+  cp IMG_1238.MOV ~/Pictures
+  cp IMG_1238.MOV ~/Videos
+  cp ~justinsgithub/theme-daddy.nvim/autoload .
+  cp main.c main.c.backup
+  cp markdown/programming-languages/lua/index.md ../justindevelops/markdown/languages/lua/index.md
+  cp ../mp3-player/Skizzy\ Mars\ -\ All\ The\ Time\ \(feat.\ Yoshi\ Flower\).mp3 .
+  cp ../mp3-player/Skizzy\ Mars\ -\ The\ City\ \(feat.\ Phoebe\ Ryan\).mp3 .
+  cp ~/Music/spotify/playlists/mp3-player/24kGoldn-A-LOT-TO-LOSE.mp3 .
+  cp ../_nvim/init.lua .
+  cp -R ../B lua/plugins
+  cp -R bubble-pop bubble-pop-backup
+  cp -R docs justindevelops
+  cp -R ~dotfiles/wezterm/.config/wezterm .
+  cp -R ~justinsgithub/theme-daddy.nvim/autoload .
+  cp -R ~justinsgithub/theme-daddy.nvim/colors .
+  cp -R ~justinsgithub/theme-daddy.nvim/lua/_td ./lua/
+  cp -R lua/lazyvim ~config/nvim
+  cp -R lua/plugins lua/_oml/
+  cp -R ~/Music/spotify/playlists/mp3-player .
+  cp -R ~/Music/spotify/playlists/mp3-player Playlists
+  cp -R ~/Music/spotify/playlists/workout/ ./Playlists
+  cp -R ~/Music/youtube/bubble-pop Music/
+  cp -R nvim plugin_macro_example
+  cp -R ../temp lua/config
+  cp -R thetextingapp/frontend frontend-debug
+  cp ~scripts/format-mp3-song.sh test.sh
+  cp terminal_typing_tutor/main.py terminal_typing_tutor/main2.py
+  cp terminal_typing_tutor/tutor.py terminal_typing_tutor/tutor2.py
+  cp vim.txt nvim.txt
+  cp wezterm/.gitignore wezterm-types
+  crontab -;
+  crontab -e
+  crontab -e 
+  crontab -e -u justin
+  crontab help
+  crontab -l
+  ../csapp
+  curl 172.18.0.5
+  curl 34.106.172.232
+  curl 34.106.172.232:3000
+  curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/api/email-text
+  curl -d "subject=value1&text=value2" -X POST http://localhost:3000/api/email-text
+  curl -fsSL https://get.pnpm.io/install.sh | env PNPM_VERSION=<version> sh -
+  curl -fsSL https://get.pnpm.io/install.sh | env PNPM_VERSION=<version> sh -\n\n
+  curl -fsSL https://get.pnpm.io/install.sh | sh -\n\n
+  curl http://localhost:3000/api/email-text
+  curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/material-ui-nextjs-pages-router-ts\ncd material-ui-nextjs-pages-router-ts
+  curl https://www.walottery.com/Scratch/TopPrizesRemaining.aspx
+  curl https://www.walottery.com/Scratch/TopPrizesRemaining.aspx | grep header
+  curl https://www.walottery.com/Scratch/TopPrizesRemaining.aspx | grep td
+  curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg\necho "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+  curl -sSL https://install.python-poetry.org | POETRY_HOME=/opt/poetry python && \ 
+  curl -sSL https://install.python-poetry.org | POETRY_HOME=/opt/poetry python3 && \ 
+  curl -sSL https://install.python-poetry.org | POETRY_HOME=/opt/poetry python3 && \ \ncd /usr/local/bin && \                                                            \nsudo ln -s /opt/poetry/bin/poetry && \                                                 \npoetry config virtualenvs.create false                                            \n
+  curl -sSL https://install.python-poetry.org | POETRY_HOME=/opt/poetry python && \ \ncd /usr/local/bin && \                                                            \nln -s /opt/poetry/bin/poetry && \                                                 \npoetry config virtualenvs.create false                                            \n
+  date
+  dig _github-pages-challenge-justinsgithub.justin-develops.com +nostats +nocomments +nocmd TXT
+  dig _github-pages-challenge-justinsgithub.justintylers.com +nostats +nocomments +nocmd TXT
+  dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd
+  dig www.justin-develops.com +nostats +nocomments +nocmd
+  dmesg | grep -i bluetooth
+  dmesg | grep -i bluetooth | grep -i firmware 
+  docker build backend.dockerfile
+  docker build -t registry.gitlab.com/justinsgithub/thetextingapp .
+  docker buildx bake
+  docker buildx bake "https://github.com/docker/docker-credential-helpers.git"\n
+  docker buildx create --use\n
+  docker compose build 
+  docker compose build --no-cache
+  docker-compose build --no-cache
+  docker compose build --no-cache && docker compose up -d
+  docker compose build --no-cache frontend
+  docker compose logs
+  docker compose up -d
+  docker compose up -d 
+  docker compose up -d --build
+  docker compose up -d --remove-orphans
+  docker container inspect 95e513c17d7e
+  docker container ls
+  docker-credential-secretservice
+  docker exec -it 2c5d9f4f7ed4 bash
+  docker exec -it 3c52826349b5 bash
+  docker exec -it 3d7ac746f806 bash
+  docker exec -it 95e513c17d7e bash
+  docker exec -it a41125846680 bash
+  docker exec -it a41125846680 sh
+  docker exec -it dc3478944fee bash
+  docker exec -it fb42b535b73b
+  docker exec -it fb42b535b73b bash
+  docker image
+  docker image prune
+  docker image prune cef9515f8b65 828751b7de54 48930b27bc9a 713aae83a8d7 b4c24a745cb4 db3396879dc1 8eb22834e548 8bb0a007bd11 9ea395a8b7e9 410e12a154fa e76687e51dc5 55dc24fd20a9 b8f003d790f4 a266b61886e6 
+  docker image rm 0c5279a6c96c 4cc46483393b d6dfd13e398d 606b63aeed8d 5291307d54bb 068dfcbfb70d d1d1f9f9e013 29631b86584c 3337ccbfa322 1ddfe70e3e13 7914e0132c58 f517f0b67387 96384dcc3add 11aadf567974 
+  docker image rm cef9515f8b65 828751b7de54 48930b27bc9a 713aae83a8d7 b4c24a745cb4 db3396879dc1 8eb22834e548 8bb0a007bd11 9ea395a8b7e9 410e12a154fa e76687e51dc5 55dc24fd20a9 b8f003d790f4 a266b61886e6 
+  docker images
+  docker images prune cef9515f8b65 828751b7de54 48930b27bc9a 713aae83a8d7 b4c24a745cb4 db3396879dc1 8eb22834e548 8bb0a007bd11 9ea395a8b7e9 410e12a154fa e76687e51dc5 55dc24fd20a9 b8f003d790f4 a266b61886e6 
+  docker kill 120a92aa67a0
+  docker kill 8fda1d1fe280
+  docker login registry.gitlab.com
+  docker logs
+  docker logs 120a92aa67a0
+  docker logs 2c5d9f4f7ed4
+  docker logs 36edf4781f33
+  docker logs 3d7ac746f806
+  docker logs 4801cdb16a02
+  docker logs 5d81f426f723
+  docker logs 95e513c17d7e
+  docker logs dc3478944fee
+  docker logs fb42b535b73b
+  docker network inspect bridge
+  docker network inspect host
+  docker network inspect none
+  docker network inspect thetextingapp_default
+  docker network inspect thetextingapp_default | cat
+  docker network inspect thetextingapp_traefik-public
+  docker network ls
+  docker pause $(docker ps -q)
+  docker pause 5d8c4939ec60
+  docker prune cef9515f8b65 828751b7de54 48930b27bc9a 713aae83a8d7 b4c24a745cb4 db3396879dc1 8eb22834e548 8bb0a007bd11 9ea395a8b7e9 410e12a154fa e76687e51dc5 55dc24fd20a9 b8f003d790f4 a266b61886e6 
+  docker ps
+  docker ps -a
+  docker ps =-a
+  docker restart $(docker ps -a -q)
+  docker rm 5d81f426f723
+  docker rm cef9515f8b65 828751b7de54 48930b27bc9a 713aae83a8d7 b4c24a745cb4 db3396879dc1 8eb22834e548 8bb0a007bd11 9ea395a8b7e9 410e12a154fa e76687e51dc5 55dc24fd20a9 b8f003d790f4 a266b61886e6 
+  docker run --privileged --rm tonistiigi/binfmt --install all
+  docker start $(docker ps -a -q)
+  docker start -a
+  docker stop *
+  docker unpause $(docker ps -q)
+  docker volume inspect thetextingapp_nodemods
+  docker volume inspect thetextingapp_node_modules
+  docker volume ls
+  docker volumes
+  drawio
+  drawio &
+  echo \\n  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\n  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \\n  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null\nsudo apt-get update
+  echo '/*\nRun the “hello, world” program on your system. Experiment with leaving out parts of the program, to see what error messages you get.\n*/' > 1/exercises/1-1/main.c\n\necho '/*\nExperiment to find out what happens when printfs argument contains \c, where c is some character not listed above.\n*/' > 1/exercises/1-2/main.c\n\necho '/*\nModify the temperature conversion program to print a heading above the table.\n*/' > 1/exercises/1-3/main.c\n\necho '/*\nWrite a program to print the corresponding Celsius to Fahrenheit table.\n*/' > 1/exercises/1-4/main.c\n\necho '/*\nModify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.\n*/' > 1/exercises/1-5/main.c\n\necho '/*\nVerify that the expression getchar() != EOF is 0 or 1.\n*/' > 1/exercises/1-6/main.c\n\necho '/*\nWrite a program to print the value of EOF.\n*/' > 1/exercises/1-7/main.c\n\necho '/*\nWrite a program to count blanks, tabls, and newlines.\n*/' > 1/exercises/1-8/main.c\n\necho '/*\nWrite a program to copy its input to its output, replacing each string of one or more blanks by a single blank.\n*/' > 1/exercises/1-9/main.c\n\necho '/*\nWrite a program to copy its input to its output, replacing each tab by \t, each backspace by \b, and each backslash by \\. This makes tabs and backspaces visible in an unambiguous way.\n*/' > 1/exercises/1-10/main.c\n\necho '/*\nHow would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?\n*/' > 1/exercises/1-11/main.c\n\necho '/*\nWrite a program that prints its input one word per line.\n*/' > 1/exercises/1-12/main.c\n\necho '/*\nWrite a program to print a histogram of the lengths of words in its input. It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging.\n*/' > 1/exercises/1-13/main.c\n\necho '/*\nWrite a program to print a histogram of the frequencies of different characters in its input.\n*/' > 1/exercises/1-14/main.c\n\necho '/*\nRewrite the temperature conversion program of Section 1.2 to use a function for conversion.\n*/' > 1/exercises/1-15/main.c\n\necho '/*\nRewrite the main routine of the longest-line program so it will correctly print the length of arbitrarily long input lines, and as much as possible of the text.\n*/' > 1/exercises/1-16/main.c\n\necho '/*\nWrite a program to print all input lines that are longer than 80 characters.\n*/' > 1/exercises/1-17/main.c\n\necho '/*\nWrite a program to remove trailing blanks and tabs from each line of input, and to delete entirely blank lines.\n*/' > 1/exercises/1-18/main.c\n\necho '/*\nWrite a function reverse(s) that reverses the character string s. Use it the write a program that reverses its input a line at a time.\n*/' > 1/exercises/1-19/main.c\n\necho '/*\nWrite a program detab that replaces tabs in the input with the proper number of blanks to space to the next tab stop. Assume a fixed set of tab stops, say every n columns. Should n be a variable or a symbolic parameter?\n*/' > 1/exercises/1-20/main.c\n\necho '/*\nWrite a program entab that replaces strings of blanks by the minimum number of tabs and blanks to achieve the same spacing. Use the same tab stops as for detab. When either a tab or a single blank would suffice to reach a tab stop, which should be given preference?\n*/' > 1/exercises/1-21/main.c\n\necho '/*\nWrite a program to “fold” long input lines into two or more shorter lines after the last non-blank character that accors before the n-th column of input. Make sure your program does something intelligent with very long lines, and if there are no blanks or tabs before the specified column.\n*/' > 1/exercises/1-22/main.c\n\necho '/*\nWrite a program to remove all comments from a C program. Don’t forget to handle quoted strings and character constants properly. C comments do not nest.\n*/' > 1/exercises/1-23/main.c\n\necho '/*\nWrite a program to check a C program for rudimentary syntax errors like unbalanced parentheses, brackets, and braces. Don’t forget about quotes, both single and double, escape sequences, and comments. (This program is hard if you do it in full generality.)\n*/' > 1/exercises/1-24/main.c\n\necho '/*\nWrite a program to determine the ranges of char, short, int, and long variables, both signed and unsigned, by printing appropriate values form standard headers and by direct computation. Harder if you compute them: determine the ranges of the various floating point types.\n*/' > 2/exercises/2-1/main.c\n\necho '/*\nWrite a loop equivalent to the for loop above without using && or\t \t.\n*/' > 2/exercises/2-2/main.c\necho '/*\nWrite the function htoi(s), which converts a string of hexadecimal digits (including an optional 0x or 0X) into its equivalent integer value. The allowable digits are 0 through 9, a through f, and A through F.\n*/' > 2/exercises/2-3/main.c\n\necho '/*\nWrite an alternate version of squeeze(s1,s2) that deletes each character in s1 that matches any character in the string s2.\n*/' > 2/exercises/2-4/main.c\n\necho '/*\nWrite the function any(s1,s2), which returns the first location in the string s1 where any character from the string s2 occurs, or -1 if s1 contains no characters from s2. (The standard library function strpbrk does the same job but returns a pointer to the location.)\n*/' > 2/exercises/2-5/main.c\n\necho '/*\nWrite a functin setbits(x,p,n,y) that returns x with the n bits that begin at position p set to the rightmost n bits of y, leabving the other bits unchanged.\n*/' > 2/exercises/2-6/main.c\n\necho '/*\nWrite a function invert(x,p,n) that returns x with the n bits that begin a position p inverted (i.e., 1 changed into 0 and vice versa), leaving the others unchanged.\n*/' > 2/exercises/2-7/main.c\n\necho '/*\nWrite a function rightrot(x,n) that returns the value of the integer x rotated to the right by n bit positions.\n*/' > 2/exercises/2-8/main.c\n\necho '/*\nIn a two’s complement number system, x &= (x-1) deletes the rightmost 1-bit in x. Explain why. Use this observation to write a faster version of bitcount.\n*/' > 2/exercises/2-9/main.c\n\necho '/*\nRewrite the function lower, which converts upper case letters to lower case, with a conditional expression instead of if-else.\n*/' > 2/exercises/2-10/main.c\n\necho '/*\nOur binary search makes two tests inside the loop, when one would suffice (at the price of more tests outside). Write a version with only one test inside the loop and measure the difference in run-time.\n*/' > 3/exercises/3-1/main.c\n\necho '/*\nWrite a function escape(s,t) taht converts characters like newline and tab into visible escape sequences like \n and \t as it copies the string t to s. Use a switch. Write a function for the other direction as well, converting escape sequences into the real characters.\n*/' > 3/exercises/3-2/main.c\n\necho '/*\nWrite a function expand(s1,s2) that expands shorthand notations like a-z in the string s1 into the equivalent complete list abc...xyz in s2. Allow for letters of either case and digits, and be prepared to handle cases like a-b-c and a-z0-9 and -a-z. Arrange that a leading or trailing - is taken literally.\n*/' > 3/exercises/3-3/main.c\n\necho '/*\nIn a two’s complement number representation, our version of itoa does not handle the largest negative number, that is, the value of n equal to − ( 2 wordsize − 1) . Explain why not. Modify it to print that value correctly, regardless of the machine on which it runs.\n*/' > 3/exercises/3-4/main.c\n\necho '/*\nWrite the function itob(n,s,b) that converts the integer n into a base b character representation in the string s. In particular, itob(n,s,16) formats n as a hexadecimal integer in s.\n*/' > 3/exercises/3-5/main.c\n\necho '/*\nWrite a version of itoa that accepts three arguments instead of two. The third argument is a minimum field width; the converted number must be padded with blanks on the left if necessary to make it wide enough.\n*/' > 3/exercises/3-6/main.c\n\necho '/*\nWrite the function strindex(s,t), which returns the position of the rightmost occurance of t in s, or -1 if there is none.\n*/' > 4/exercises/4-1/main.c\n\necho '/*\nExtend atof to handle scientific notation of the form 123.45e-6.\n*/' > 4/exercises/4-2/main.c\n\necho '/*\nGiven the basic framework, it’s straightforward to extend the calculator. Add the modulus (%) operator and provisions for negative numbers.\n*/' > 4/exercises/4-3/main.c\n\necho '/*\nAdd commands to print the top elements of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack.\n*/' > 4/exercises/4-4/main.c\n\necho '/*\nAdd access to library functions like sin, exp, and pow. See <math.h> in Appendix B, Section 4.\n*/' > 4/exercises/4-5/main.c\n\necho '/*\nAdd commands for handling variables. (It’s easy to provide twenty-six variables with single-letter names) Add a variable for the most recently printed value.\n*/' > 4/exercises/4-6/main.c\n\necho '/*\nWrite a routine ungets(s) that will push back an entire string onto the input. Should ungets know about buf and bufp, or should it just use ungetch?\n*/' > 4/exercises/4-7/main.c\n\necho '/*\nSuppose that there will never be more than one character of pushback. Modify getch and ungetch accordingly.\n*/' > 4/exercises/4-8/main.c\n\necho '/*\nOur getch and ungetch do not handle a pushed-back EOF correctly. Decide what their properties ought to be if EOF is pushed back, then implement your design.\n*/' > 4/exercises/4-9/main.c\n\necho '/*\nAn alternate organization uses getline to read an entire input line; this makes getch and ungetch unnecessary. Revise the calculator to use this approach.\n*/' > 4/exercises/4-10/main.c\n\necho '/*\nModify getop so that it doesn’t need to use ungetch. Hint: use an internal static variable.\n*/' > 4/exercises/4-11/main.c\n\necho '/*\nAdapt the ideas of printd to write a recursive version of itoa; that is, convert an integer into a string by calling a recursive routine.\n*/' > 4/exercises/4-12/main.c\n\necho '/*\nWrite a recursive version of the function reverse(s), which reverses the string s in place.\n*/' > 4/exercises/4-13/main.c\n\necho '/*\nDefine a macro swap(t,x,y) that interchanges two arguments of type t. (Block structure will help)\n*/' > 4/exercises/4-14/main.c\n\necho '/*\nAs written, getint treats a + or - not followed by a digit as a valid representation of zero. Fix it the push such a character back on the input.\n*/' > 5/exercises/5-1/main.c\n\necho '/*\nWrite getfloat, the floating-point analog of getint. What type does getfloat return as its function value?\n*/' > 5/exercises/5-2/main.c\n\necho '/*\nWrite a pointer version of the function strcat that we showed in Chapter 2: strcat(s,t) copies the string t to the end of s.\n*/' > 5/exercises/5-3/main.c\n\necho '/*\nWrite a function strend(s,t), which returns 1 if the string t occurs at the end of the string s, and zero otherwise.\n*/' > 5/exercises/5-4/main.c\n\necho '/*\nWrite versions of the library functions strncpy, strncat, and strncmp, which operate on at most the first n characters of their argument strings. For example, strncpy(s,t,n) copies at most n characters of t to s.\n*/' > 5/exercises/5-5/main.c\n\necho '/*\nRewrite appropriate programs from earlier chapters and exercises with pointers instead of array indexing. Good possibilities include getline (Chapters 1 and 4), atoi, itoa, and their variants (Chapters 2,3, and 4), reverse (Chapter 3), and strindex and getop (Chapter 4).\n*/' > 5/exercises/5-6/main.c\n\necho '/*\nRewrite readlines to store lines in an array supplied by main, rather than calling alloc to maintain storage. How much faster is the program?\n*/' > 5/exercises/5-7/main.c\n\necho '/*\nThere is no error checking in day_of_year or month_day. Remedy this defect.\n*/' > 5/exercises/5-8/main.c\n\necho '/*\nRewrite the routines day_of_year and month_day with pointers instead of indexing.\n*/' > 5/exercises/5-9/main.c\n\necho '/*\nModify the programs entab and detab (written as exercises in Chapter 1) to accept a list of tab stops as arguments. Use the default tab settings if there are no arguments.\n*/' > 5/exercises/5-11/main.c\n\necho '/*\nExtend entab and detab to accept the shorthand entab -m+n to mean tab stops ever n columns, starting at column m. Choose convenient (for the user) default behavior.\n*/' > 5/exercises/5-12/main.c\n\necho '/*\nWrite the program tail, which prings the last n lines of its input. By default, n is 10, let us say, but it can be changed by an optional argument, so that tail -n prints the last n lines. The program should behave rationally no matter how reasonable the input or the value of n. Write the program so it makes the best use of available storage; lines should be stored as in the sorting program of section 5.6, not in a two-dimensional array of fixed size.\n*/' > 5/exercises/5-13/main.c\n\necho '/*\nModiufy the sort program to handle a -r flag, which indicates sorting in reverse (decreasing) order. Be sure that -r works with -n.\n*/' > 5/exercises/5-14/main.c\n\necho '/*\nAdd the option -f to fold upper and lower case together, so that case distinctions are not made during sorting; for example, a and A compare equal.\n*/' > 5/exercises/5-15/main.c\n\necho '/*\nAdd the -d (“directory order”) option, which makes comparisons only on letters, numbers, and blanks. Make sure it works in conjunction with -f.\n*/' > 5/exercises/5-16/main.c\n\necho '/*\nAdd a field-handling capability, so sorting may be done on fields within lines, each field sorted according to an independent set of options. (The index for this book was sorted with -df for the index category and -n for page numbers.)\n*/' > 5/exercises/5-17/main.c\n\necho '/*\nMake dcl recover from input errors.\n*/' > 5/exercises/5-18/main.c\n\necho '/*\nModify undcl so that it does not add redudant parentheses to declarations.\n*/' > 5/exercises/5-19/main.c\n\necho '/*\nExpand dcl to handle declarations with function argument types, qualifiers like const and so on.\n*/' > 5/exercises/5-20/main.c\n\necho '/*\nOur version of getword does not properly handle underscores, string constants, comments, or preprocessor control lines. Write a better version.\n*/' > 6/exercises/6-1/main.c\n\necho '/*\nWrite a program that reads a C program and prints in alphabetical order each group of variable names that are identical in the first 6 characters, but different somewhere thereafter. Don’t count words within strings and comments. Make 6 a parameter that can be set from the command line.\n*/' > 6/exercises/6-2/main.c\n\necho '/*\nWrite a cross-referencer that prints a list of all words in a document, and for each word, a list of the line numbers on which it occurs. Remove noise words like “the”, “and”, and so on.\n*/' > 6/exercises/6-3/main.c\n\necho '/*\nWrite a program that prints the distinct words in its input sorted into decreasing order of frequency of occurence. Precede each word by its count.\n*/' > 6/exercises/6-4/main.c\n\necho '/*\nWrite a function undef that will remove a name and definition from the table maintained by lookup and install.\n*/' > 6/exercises/6-5/main.c\n\necho '/*\nImplement a simple version of the #define processor (i.e. no arguments) suitable for use with C programs, based on the routines of this section. You may also find getch and ungetch helpful.\n*/' > 6/exercises/6-6/main.c\n\necho '/*\nWrite a program that converts upper case to lower or lower case to upper, depending on the name it is invoked with, as found in argv[0].\n*/' > 7/exercises/7-1/main.c\n\necho '/*\nWrite a program that will print arbitrary input in a sensible way. As a minimum, it should print non-graphic characters in octal or hexadecimal according to local custon, and break long text lines.\n*/' > 7/exercises/7-2/main.c\n\necho '/*\nRevise minprintf to handle more of the other facilities of printf.\n*/' > 7/exercises/7-3/main.c\n\necho '/*\nWrite a private version of scanf analogous to minprintf from the previous section.\n*/' > 7/exercises/7-4/main.c\n\necho '/*\nRewrite the postfix calculator of Chapter 4 to use scanf and/or sscanf to do the input and number conversion.\n*/' > 7/exercises/7-5/main.c\n\necho '/*\nWrite a program to compare two files, printing the first l;ine where they differ.\n*/' > 7/exercises/7-6/main.c\n\necho '/*\nModify the patter finding program of Chapter 5 to take its input from a set of named files or, if no more files are named as arguments, from the standard input. Should the file name be printed when a matching line is found?\n*/' > 7/exercises/7-7/main.c\n\necho '/*\nWrite a program to print a set of files, starting each now one on a new page, with a title and a running page count for each file.\n*/' > 7/exercises/7-8/main.c\n\necho '/*\nFunctions like isupper can be implemented to save space or to save time. Explore both possibilities.\n*/' > 7/exercises/7-9/main.c\n\necho '/*\nRewrite the program cat from Chapter 7 using read, write, open, and close instead of the standard library equivalents. Perform experiments to determine the relative speeds of the two versions.\n*/' > 8/exercises/8-1/main.c\n\necho '/*\nRewrite fopen and _fillbuf with fields instead of explicit bit operations. Compare code size and execution speed.\n*/' > 8/exercises/8-2/main.c\n\necho '/*\nDesign and write _flushbuf, fflush, and fclose.\n*/' > 8/exercises/8-3/main.c\n\necho '/*\nThe standard library function int fseek(FILE *fp, long offset, int origin) is identical to lseek except that fp is a file pointer instead of a file descriptor and the return value is an int status, not a position. Write fseek. Make sure that yout fseek coordinates properly with the buffering done for the other functions of the library.\n*/' > 8/exercises/8-4/main.c\n\necho '/*\nModify the fsize program to print the other information contained in the inode entry.\n*/' > 8/exercises/8-5/main.c\n\necho '/*\nThe standard library function calloc(n,size) returns a pointer to n objects of the size size, with the storage initialized to zero. Write calloc, by calling malloc or by modifying it.\n*/' > 8/exercises/8-6/main.c\n\necho '/*\nmalloc accpets a size request without checking its plausibility; free believes that the block it is asked to free contains a valid size field. Improve these routines so they take more pains with error checking.\n*/' > 8/exercises/8-7/main.c\n\necho '/*\nWrite a routine bfree(p,n) that will free an arbitrary block p of n characters into the free list maintained by malloc and free. By using bfree, a user can add a static or external array to the free list at any time.\n*/' > 8/exercises/8-8/main.c\n
+  echo '/*\nWrite a routine bfree(p,n) that will free an arbitrary block p of n characters into the free list maintained by malloc and free. By using bfree, a user can add a static or external array to the free list at any time.\n*/' >> 8/exercises/8-8/main.c
+  echo "project_name thetextingapp\"
+  echo "project_name thetextingapp\\nproject_slug thetextingapp\\ndomain_main\n"
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`";:/?.>,<'
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`";:/?.>,<''
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`";:/?.>,<'''
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`";:/?.>,<\''
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`";:/?.>,<\\''
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`\'";:/?.>,<'
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`\'\";:/?.>,<'
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~\`\'\";:/?.>,<''
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~`'";:/?.>,<'
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~`\'";:/?.>,<'
+  echo 'PUNCT: !@#$$%^&&*()*()__+=-|\]}[{~`\'";:/?.>,<'\n\n'\n'
+  echo "push-ups = 115"
+  echo "push-ups = 135"
+  echo "push-ups = 95"
+  echo random >> .gitignore
+  echo test
+  echo "/vendor/bundle" >> .gitignore
+  echo "/vendor/javascript/*" >> .gitignore
+  echo "# writings" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:justinsgithub/writings.git\ngit push -u origin main
+  echo .zcompdump-pop-os-5.8.1 >> .gitignore
+  echo .zcompdump-pop-os-5.8.1.zwc >> .gitignore
+  exercism
+  exercism configure --token=316d226e-1736-468f-ba86-44c180352345\n
+  exercism download --track=c --exercise=armstrong-numbers
+  exercism download --track=c --exercise=hello-world
+  exercism submit hello_world.c hello_world.h
+  ffmpeg -i test.webm -vn test.mp3
+  fg
+  find / -name  deps
+  find . -name foreman
+  find ./ -name foreman
+  for dest in $(ls); echo "$dest"; done
+  for dest in $(ls); echo $dest; done
+  for dest in 1-1; echo $dest; done
+  for dest in *; echo "$dest"; done
+  for dest in *; echo $dest; done
+  for i in $(ls); do\n  mkdir -p "$i/examples"\ndone
+  for i in $(ls); do\n  mkdir -p "$i/exercises"\ndone
+  for i in 1-1; do echo  $i; done 
+  for i in *; do cp ../../main.h  $i && cp ../../makefile $i && cp ../../test_main.c $i; done 
+  for i in *; do cp ../../main.h  $i; done 
+  for i in *; do echo  $i; done 
+  for i in *; do for j in *; do echo $j; done; done 
+  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done\n
+  ../frontend
+  frontend-debug
+  gc
+  gcc 1-1.c && ./a.out
+  gcc 1-1.c && ./a.out | cat
+  gcc 1-1.c && ./a.out | echo
+  gcc 1-1.c && ./a.out | echo -
+  gcc examples/strindex.c
+  gcc main.c
+  gcc main.c && ./a.out
+  gcc main.c -lncurses
+  gcc main.c -lncurses && ./a.out
+  gcc test_hello_world.c
+  gcc --version
+  gc --depth=1 git@github.com:justinsgithub/docs.git 
+  gc --depth=1 https://github.com/nvim-pack/nvim-spectre.git
+  gc --depth=1 https://github.com/squidfunk/mkdocs-material.git
+  gc --depth=1 https://github.com/tailwindlabs/tailwindcss.git
+  gc --depth=1 https://github.com/tiangolo/fastapi.git
+  gc --depth=1 https://github.com/wez/wezterm.git
+  gc git@github.com:justinsgithub/docs.git 
+  gc git@github.com:justinsgithub/justindevelops.git 
+  gc https://github.com/jason0x43/dotfiles.git 
+  gc https://github.com/nekowinston/wezterm-types.git
+  gc https://github.com/squidfunk/mkdocs-material.git
+  gc https://github.com/tiangolo/fastapi.git
+  gem install foreman
+  gem install rails
+  gem list
+  gem list foreman
+  gem list foreman -i
+  gem list --help
+  gem list -i foreman
+  gem list -I foreman
+  gem update --system 3.4.21
+  gir pull
+  git add 
+  git add .
+  git add . 
+  git add bin/deploy.zsh
+  git add .gitignore
+  git add init.lua
+  git add lua/oh-my-lazyvim/config/autocmds.lua
+  git add lua/oh-my-lazyvim/config/keymaps.lua
+  git add  .         lua/oh-my-lazyvim/plugins/colorschemes/_lush.lua
+  git add lua/oh-my-lazyvim/plugins/editor/_whichkey.lua
+  git add lua/_oml/config/autocmds.lua
+  git add lua/_oml/config/autocmds.lua 
+  git add lua/_oml/config/keymaps.lua
+  git add lua/_oml/plugins/buffers-tabs/_bufferline.lua
+  git add lua/_oml/plugins/buffers-tabs/_tabby.lua
+  git add lua/_oml/plugins/editor/_whichkey.lua
+  git add lua/_oml/plugins/extra
+  git add lua/_oml/plugins/marks-registers/_bookmarks.lua
+  git add lua/plugins
+  git add lua/plugins/buffers-tabs/_tabby.lua
+  git add lua/plugins/extra/
+  git add lua/plugins/extra/_vim-jukit.lua
+  git add .luarc.json
+  git add markdown/software/github/pages/index.md 
+  git add markdown/software/prisma/nextjs-api.md
+  git add markdown/software/vim/index.md
+  git add markdown/thoughts/
+  git add mkdocs.yml
+  git add plugins
+  git add README.md
+  git add skeletons/nextjs-ts-api.ts
+  git add types
+  git add types/
+  git add types/objects/
+  git branch
+  git branch broken
+  git branch colorschemes
+  git branch -D colorschemes
+  git branch dev
+  git branch fix
+  git branch og-docker-unused-images
+  git branch old-stuff
+  git branch temp
+  git branch test
+  git branch v1
+  git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/astronvim
+  git clone --depth 1 https://github.com/folke/neodev.nvim.git
+  git clone --depth=1 https://github.com/loctvl842/monokai-pro.nvim.git
+  git clone git@github.com:justinsgithub/oh-my-lazyvim.git
+  git clone git@github.com:justinsgithub/ohmylazyvim.git
+  git clone git@github.com:justinsgithub/Oh-My-LazyVim.git
+  git clone git@github.com:justinsgithub/Oh-My-LazyVim.git 
+  git clone git@github.com:justinsgithub/terminal-typing-tutor.git
+  git clone git@github.com:justinsgithub/wezterm-types.git
+  git clone git@github.com:justinsgithub/writings.git
+  git clone https://github.com/docker/docker-credential-helpers.git
+  git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim 
+  git clone https://github.com/whythawk/full-stack-fastapi-postgresql.git
+  git commit -m 
+  git commit -m "add all exercise main.c files with their description" 
+  git commit -m "add Alpha dashboard to keymaps, lush.nvim, remove markdown autoformat"
+  git commit -m "add Alpha keymap for whichkey"
+  git commit -m "add autocommand to automatically source lua files after saving (only in neovim config dir)"
+  git commit -m "add custom theme for config colorscheme theme-daddy"
+  git commit -m "add github pages IPs"
+  git commit -m "add jupyter notebook plugin vim-jukit, TODO: make whichkey descriptions pretty / more helpful"
+  git commit -m "add keymap gl to open diagnostic window (used to it from LunarVim)"
+  git commit -m "add prisma"
+  git commit -m "add scripts hash"
+  git commit -m "add tabby.nvim (default disabled, too much configuring needed)"
+  git commit -m "add tailwindcss"
+  git commit -m "add to gitignore"
+  git commit -m "add verify domain to github pages"
+  git commit -m "almost finished colorscheme"
+  git commit m "almost finished colorscheme"
+  git commit -m "almost finished project 01"
+  git commit -m "backup"
+  git commit -m "backup before big search and replace"
+  git commit -m "backup - forgot to update nvim lazy lockfile"
+  git commit -m "change cd command to use zoxide (hope nothing breaks)"
+  git commit -m "change repo structure"
+  git commit -m 'cleaned up colorscheme for now'
+  git commit -m "cleaning neovim config"
+  git commit -m 'cleaning up / debloating colorscheme'
+  git commit -m "cleaning up old stuff"
+  git commit -m "config file edits to more match original"
+  git commit -m "create crontab and nextjs api to send scheduled texts"
+  git commit -m "delete configs for tools i do not use anymore"
+  git commit -m "edit ignore file"
+  git commit -m "edit readmd"
+  git commit -m "excercise 1-13 complete"
+  git commit -m "finish 0.1.0"
+  git commit -m "finish detab"
+  git commit -m "finish entab"
+  git commit -m "finish first nand2tetris chip"
+  git commit -m "finish nand2tetris project 1"
+  git commit -m "finish project 02"
+  git commit -m "finish project 03 part b"
+  git commit -m "finish project 4"
+  git commit -m "finish project 4 part 1"
+  git commit -m "finish project 5"
+  git commit -m "finish project 5 CPU"
+  git commit -m "finish project 5 Memory"
+  git commit -m "finish testing script"
+  git commit -m "finish theme-daddy"
+  git commit -m "first commit"
+  git commit -m "fix gitignore issues"
+  git commit -m "fix neovim"
+  git commit -m "getting ready to test production deployment"
+  git commit -m "init app, add to ignore file"
+  git commit -m "jukit whichkey descriptions (could be more precise)"
+  git commit -m "move each colorscheme into seperate plugin file"
+  git commit -m "nand2tetris"
+  git commit -m "nand2tetris chips progress"
+  git commit -m "neovim commands" 
+  git commit -m "neovim update"
+  git commit -m "new branch just to keep old stuff"
+  git commit -m "nextjs api prisma progress"
+  git commit -m "nextjs api skeleton, change bookmarks mapping"
+  git commit -m "next js material ui instead of t3"
+  git commit -m "nodemailer smtp working"
+  git commit -m "objects progress"
+  git commit -m "organizing plugins"
+  git commit -m "progress but broken, new branch"
+  git commit -m "progress no longer broken"
+  git commit -m "quick fix"
+  git commit -m "quick fixes"
+  git commit -m "ready for basic auto message usage"
+  git commit -m "reformat vampire woman dream"
+  git commit -m "remove celery flower rabbitmq code / config"
+  git commit -m "removed all neo4j config / code"
+  git commit -m "remove rabbitmq celery flower from docker compose file"
+  git commit -m "removing all neo4j config / code"
+  git commit -m "removing unused docker images"
+  git commit -m "reverting directory structure"
+  git commit -m "rules on ricing" 
+  git commit -m "scaffold header, make, and test files for each exercise" 
+  git commit -m "set defaults if cannot find config/theme/init.lua"
+  git commit -m "start chapter 2 exercises"
+  git commit -m "start chapter 3"
+  git commit -m "started new repo"
+  git commit -m "started vim page"
+  git commit -m "start fold program"
+  git commit -m "start k&r tests"
+  git commit -m "start nand2tetris project 1"
+  git commit -m "still a couple missing types (such as PaneMetaData), need to fix anys or change to ANY"
+  git commit -m "structure project to match wezterm.org config reference 'https://wezfurlong.org/wezterm/config/lua/general.html'"
+  git commit -m "structure repo"
+  git commit -m "switching to personal neovim config, archiving Oh My LazyVim"
+  git commit -m "test"
+  git commit -m "testing"
+  git commit -m "testing script started"
+  git commit -m "trying new practice method"
+  git commit -m "update"
+  git commit -m "update .gitignore and readme"
+  git commit -m "vampire woman dream"
+  git commit -m "work on k&r chapter 4"
+  git config --global --edit
+  git config --global init.defaultBranch main
+  git filter-branch -f --tree-filter 'rm -f lua/config' -- --all 
+  git filter-branch -f --tree-filter 'rm -rf lua/config' -- --all 
+  git filter-branch -f --tree-filter 'rm -rf lua/plugins' -- --all 
+  git filter-branch --index-filter 'git rm -rf --cached --ignore-unmatch cookiecutter-config-file.yml' HEAD
+  git filter-branch --tree-filter 'rm -f init.lua' -- --all
+  git filter-branch --tree-filter 'rm -f lua/config' -- --all
+  git filter-branch --tree-filter 'rm -f lua/config' -- --all -f
+  git filter-branch --tree-filter 'rm -rf lua/config' -- --all 
+  Github/practice
+  git init
+  git init .
+  git init --initial-branch=master\ngit remote add origin git@gitlab.com:justinsgithub/thetextingapp.git\ngit add .\ngit commit -m "Initial commit"\ngit push --set-upstream origin master
+  git log
+  git logs
+  git og
+  git pull
+  git pull git@github.com:justinsgithub/writings.git
+  git push
+  git push'
+  git push --force
+  git push --set-upstream origin master
+  git remote add origin git@github.com:justinsgithub/practice.git\n  git branch -M main\n  git push -u origin main
+  git remote add origin git@github.com:justinsgithub/prisma-nextjs.git\ngit branch -M main\ngit push -u origin main
+  git remote add origin git@github.com:justinsgithub/text-me.git\ngit branch -M main\ngit push -u origin main
+  git remote add origin https://gitlab.com/justinsgithub/thetextingapp.git\n
+  git reset 
+  git restore
+  git restore .
+  git restore dummy.txt
+  git restore ../k\&r-exercise-tests/dummy.txt
+  git restore lua/_oml/theme-daddy/colorscheme/init.lua
+  git restore neovim
+  git restore --staged .
+  git restore --staged confgi
+  git restore --staged config
+  git restore --staged init.lua
+  git restore --staged lua/config
+  git restore TODO.md
+  git revert
+  git rm --cached lua/plugins/misc/_dial.lua
+  git rm docs/CNAME
+  git rm init.lua
+  git rm lua/config
+  git rm lua/config/
+  git rm lua/config -r
+  git rm lua/config -rg
+  git rm  lua/plugins/misc/_dial.lua
+  git rm lua/plugins/misc/_dial.lua
+  git rm lua/plugins/project-management/_vim-wakatime.lua
+  git rm lua/plugins/project-management/_vim-wakatime.lua --cached
+  git rm -r --cached .
+  git rm -r lua/config
+  git rm -r lua/config/
+  git rm TODO.md
+  git rm zsh/.config/zsh/.zcompdump-pop-os-5.8.1
+  git show0branch
+  git show-branch
+  git srtatus
+  git statis
+  git statu
+  git status
+  git switch borken
+  git switch broken
+  git switch co
+  git switch colorschemes
+  git switch dev
+  git switch fix
+  git switch main
+  git switch master
+  git switch og-docker-unused-images
+  git switch old-stuff
+  git switch temp
+  git switch test
+  git switch v1
+  git update-index --skip-worktree
+  google-chrome
+  grep '//' --file main.c
+  grep --help
+  grep '//' main.c
+  gvim file.txt
+  hardwaresim projects/01/Mux4Way16.tst
+  hatch
+  hatch env
+  hatch env 
+  hatch env creae
+  hatch env create
+  hatch env create dev
+  hatch env prune
+  hatch env show
+  hatch shell
+  hatch show
+  hatch status
+  hx 1-1.c
+  hx ~/.config/helix/config.toml
+  hx --health
+  hx main.c
+  j -
+  J
+  java --version
+  j dotfiles
+  jupyter notebook\n
+  justin
+  ../justindevelops
+  ks
+  l
+  l -1
+  la
+  la ~
+  lazygit
+  l /bin/vim
+  ld
+  lks
+  ll
+  ll 
+  ll ..
+  ll ../../
+  ll ~
+  ll ../../.config
+  ll ~/.config
+  ll /etc/alternatives/editor
+  ll frontend
+  ll frontend/.nuxt
+  ll node_modules
+  ll .nuxt
+  ll /usr/bin/edito
+  ll /usr/bin/editor
+  ll Videos/IMG_1238.MOV
+  ln -s /opt/poetry/bin/poetry && \                                                 
+  lol
+  ;ls
+  l;s
+  ls
+  ls 
+  ls ..
+  ls ...
+  ls ../
+  ls ~
+  ls 0a 
+  ls -1
+  ls 1
+  ls 1/exercises
+  ls 1/exercises/1-1
+  ls -a
+  ls -a ~
+  ls -a chapter
+  ls -a chapter-1
+  ls -a chapter1
+  ls -a ~/.config/helix
+  ls -a justin
+  ls -a justinsgithub
+  ls -a Music
+  ls -a neovim
+  ls -a neovim/.config/nvim/
+  ls -a node_modules
+  ls -a test
+  ls -a zsh/.config/zsh
+  ls ~/bin
+  ls bin
+  ls bin/
+  ls /bin/vim
+  ls blah
+  ls .cache
+  ls .cache/nvim
+  ls con
+  ls conf
+  ls .config
+  ls ~config
+  ls ~/.config/helix
+  ls Do
+  ls ~/Documents
+  ls ~/Documents/pdf/v-messages/1.\ \(164\)\ Verizon\ Messages.pdf
+  ls Downloads
+  ls /etc/cron.d
+  ls /etc/crontab 
+  ls frontend
+  ls hobby
+  ls /home/linuxbrew/.linuxbrew/bin
+  ls /home/linuxbrew/.linuxbrew/bin/
+  ls /home/linuxbrew/.linuxbrew/Cellar
+  ls /home/linuxbrew/.linuxbrew/lib/
+  ls /home/linuxbrew/.linuxbrew/sbin
+  ls -l
+  ls -l 
+  ls -l ~
+  ls -l;
+  lsl
+  ls -l ~/bin
+  ls -l /bin/vim
+  ls -l ~/.config
+  ls -l node_modules
+  ls -l .nut
+  ls -l .nuxt
+  ls ~/.local/lib/python3.10/site-packages/yt_dlp
+  ls ~/.local/share/Trash/files
+  ls lua
+  ls lua/config
+  ls lua/plugins/.gitignore
+  ls -l /usr/bin/vim
+  ls misc
+  ls mp3-player
+  ls Music/mp3-player/
+  ls Music/mp3-player/24kGoldn-A-LOT-TO-LOSE.mp3
+  ls ~/Music/spotify/playlists/mp3-player/
+  ls nand2tetris
+  ls nand2tetris/tools
+  ls neovim
+  ls node_modules
+  ls node_modules/bin
+  ls node_modules/nodemailer
+  ls _old
+  ls old
+  ls ~/Pictures/google-locked
+  ls projects
+  ls projects/00
+  ls published
+  ls railsapp
+  ls -R projects
+  ls -R tools
+  ls scripts
+  ls scripts/
+  ls secretservice
+  ls spotify
+  ls storage
+  ls teachyourselfcs
+  ls temp
+  ls test
+  ls the-c-programming-language
+  ls thetextingapp/thetextingapp
+  ls tools
+  ls tools/
+  ls tst
+  lsusb
+  ls /usr/bin/docker-proxy
+  ls /usr/bin/nvim
+  ls /var/lib/docker/volumes/thetextingapp_nodemods/_data
+  ls /var/lib/docker/volumes/thetextingapp_node_modules/_data
+  ls /var/spool/cron/crontabs
+  ls vendor
+  ls vendor/javascript
+  ls Videos/yt
+  ls .vim
+  ls v-messages
+  ls | wc -l
+  ls wezterm
+  ls zsh/.config/zsh
+  lua
+  lua basics.lua
+  lua basics.lua | ccat
+  lua examples.lua
+  lua -i
+  lua -i 
+  lua init.lua
+  lua -i overview.lua
+  lua -i types.lua
+  lua multi-line-strings.lua
+  lua overview.lua
+  lua t
+  lua table.lua
+  lua types.lua
+  lua types.lua | ccat
+  lvim mkdocs.yml
+  lw
+  make
+  make clean
+  make docker-credential-secretservice
+  make memcheck
+  make test
+  man clangd
+  man cron
+  man crontab
+  man crontab 
+  man git branch
+  man history
+  man read
+  mkdir 1 2 3 4 5 6 7 8
+  mkdir 1/exercises/1-1 1/exercises/1-2 1/exercises/1-3 1/exercises/1-4 1/exercises/1-5 1/exercises/1-6 1/exercises/1-7 1/exercises/1-8 1/exercises/1-9 1/exercises/1-10 1/exercises/1-11 1/exercises/1-12 1/exercises/1-13 1/exercises/1-14 1/exercises/1-15 1/exercises/1-16 1/exercises/1-17 1/exercises/1-18 1/exercises/1-19 1/exercises/1-20 1/exercises/1-21 1/exercises/1-22 1/exercises/1-23 1/exercises/1-24
+  mkdir ~/bin
+  mkdir bin
+  mkdir blah
+  mkdir chapter-2
+  mkdir color gui mux procinfo time
+  mkdir ~/.config/natty-nvim
+  mkdir .config/nvim
+  mkdir configs
+  mkdir dreams
+  mkdir exercism
+  mkdir finished
+  mkdir ~/Github/practice/bin
+  mkdir Github/practice/nand2tetris
+  mkdir google-locked
+  mkdir hobby
+  mkdir justinsgithub
+  mkdir liked 
+  mkdir lua/_oml/plugins/extra
+  mkdir misc
+  mkdir Misc
+  mkdir mp3-player
+  mkdir Music
+  mkdir next-app
+  mkdir node_modules
+  mkdir objects
+  mkdir _old
+  mkdir -p ~dotfiles/neovim/.config && mv ~/.config/nvim ~dotfiles/neovim/.config
+  mkdir Pictures/obs
+  mkdir -p neovim/.config/
+  mkdir published
+  mkdir  -p youtube/bubble
+  mkdir random
+  mkdir scripts
+  mkdir spotify
+  mkdir spotify/playlists
+  mkdir spotify/playlists/workout
+  mkdir teachyourselfcs
+  mkdir temp
+  mkdir testing
+  mkdir tests
+  mkdir the-c-programming-language
+  mkdir thetextingapp
+  mkdir types/wezterm/{color gui}
+  mkdir typing-test
+  mkdir Videos/kdenlive
+  mkdir Videos/obs
+  mkdir Videos/yt
+  mkdir .vim
+  mkdir writings
+  mksere
+  mkserve
+  mv ../
+  mv 2013\ Stroustrup\ -\ The\ C++\ Programming\ Language\ 4th\ Edition.pdf 2013-Stroustrup-The-CPP-Programming-Language-4th-Edition.pdf
+  mv 2023-07-20\ 15-20-37.mkv Videos/kdenlive
+  mv 6.\ Justin\ Tyler\ Angeles-Ward\ -\ Tenant\ Screening\ Report\ 12-18-2023.pdf Justin-Tyler-Angeles-Ward-Tenant-Screening-Report-12-18-2023.pdf
+  mv a.out tests
+  mv bin/* Github/thetextingapp/scripts/
+  mv ../bin/hardwaresim tools/
+  mv bin scripts
+  mv bin/test.sh bin/test1.sh
+  mv ../B lua/plugins
+  mv bubble bubble-pop
+  mv ~/.cache/lazyvim ~/.cache/nvim
+  mv .cache/nvim .cache/oml
+  mv .cache/oml .cache/nvim
+  mv *.c chapter-2
+  mv chapter-1/* .
+  mv chapter-1/.clang-format .
+  mv chapter-2 chapter-1
+  mv color.lua color/init.lua
+  mv compose-01-starting-setup.zip blah
+  mv compose-02-finished.zip blah
+  mv ~/.config/lazyvim ~/.config/nvim
+  mv config lua
+  mv ~/.config/natty-nvim/init.vim ~/.config/natty-nvim/init.lua
+  mv ~config/nvim ~config/new-nvim
+  mv ~config/nvim ~config/oh-my-lazyvim
+  mv .config/nvim .config/oml
+  mv ~config/nvim ~dotfiles/neovim/.config
+  mv ~/.config/nvim neovim/.config
+  mv ~config/oh-my-lazyvim ~config/nvim
+  mv .config/oml .config/nvim
+  mv config ../temp
+  mv C practice
+  mv CSAPP-2016-3rd-edition.pdf teachyourselfcs
+  mv deploy.zsh bin
+  mv docker-credential-helpers Github
+  mv dotfiles/config/nvim/lua/user/types/wezterm/ wezterm-types
+  mv dotfiles justinsgithub
+  mv ~dotfiles/neovim ~dotfiles/oml
+  mv Downloads/*mp4 Videos
+  mv Downloads/obs-webcam-circle.png Pictures/obs
+  mv Downloads/Photos-001.zip Pictures
+  mv ~/Downloads/Programming\ In\ Lua\ 2nd\ Edition.pdf Programming-in-Lua.pdf
+  mv Downloads/The\ Elements\ of\ Computing\ Systems.pdf Documents/pdf/teachyourselfcs/the-elements-of-computing-systems-nand2tetris.pdf
+  mv exercism ~/Github/practice/bin
+  mv fastapi old 
+  mv file.txt vim.txt
+  mv full-stack-fastapi-postgresql old
+  mv getting-started overview
+  mv gh-pages-verification.jpg published
+  mv gitlab-recovery-codes.txt ~/Documents
+  mv .git ../TEMP
+  mv gui.lua gui/init.lua
+  mv input-file.txt tests
+  mv Introduction\ to\ Linear\ Algebra\ 6th\ edition_02.pdf teachyourselfcs/Introduction-to-Linear-Algebra-6th-edition_02.pdf
+  mv *.jpg ~/Pictures
+  mv *.JPG ~/Pictures
+  mv justindevelops temp
+  mv justinsgithub/* .
+  mv Justin\ Tyler\ Angeles-Ward\ -\ Decision\ Letter\ 12-18-2023.pdf Justin-Tyler-Angeles-Ward-Decision-Letter-12-18-2023.pdf
+  mv k\&r-exercise-tests KnR-exercise-tests
+  mv LazyVim old
+  mv ~/.local/share/lazyvim ~/.local/share/nvim
+  mv .local/share/nvim .local/share/oml
+  mv .local/share/oml .local/share/nvim
+  mv ~/.local/share/Trash/files/assets/ markdown
+  mv .local/share/zsh/ .local/state
+  mv ~/.local/state/lazyvim ~/.local/state/nvim
+  mv .local/state/nvim .local/state/oml
+  mv .local/state/oml .local/state/nvim
+  mv lua/commands/ lua/config
+  mv lua/config .
+  mv lua/config config
+  mv lua/plugins/ ../B
+  mv main.h ..
+  mv makefile ..
+  mv math-for-computer-science.pdf teachyourselfcs
+  mv mkdocs-material old
+  mv monkeytype.txt misc
+  mv monokai-pro.nvim old
+  mv *mp3 spotify/playlists/workout
+  mv *mp4 yt
+  mv mux.lua mux/init.lua
+  mv nand2tetris/nand2tetris.zip .
+  mv .neovim-files .neovim
+  mv neovim-manual-1-1.jpg published
+  mv neovim-manual-2* published
+  mv neovim _nvim
+  mv neovim temp
+  mv next.config.js next-app
+  mv next-env.d.ts next-app
+  mv .next next-app
+  mv node_modules next-app
+  mv _nvim/ nvim
+  mv nvim __nvim
+  mv nvim _nvim
+  mv Oh-My-LazyVim/.git nvim
+  mv oh-my-lazyvim.jpg published
+  mv oh-my-lazyvim nvim
+  mv Oh-My-LazyVim nvim
+  mv output-file.txt tests
+  mv package.json next-app
+  mv pages next-app
+  mv *.pdf ~/Documents/pdf
+  mv *.PDF pdf
+  mv Photos-001.zip google-locked
+  mv *.PNGG ~/Pictures
+  mv *.PNG ~/Pictures
+  mv pnpm-lock.yaml next-app
+  mv procinfo.lua procinfo/init.lua
+  mv public next-app
+  mv railsapp old
+  mv README.md next-app
+  mv scripts/crontab-file scripts/crontab
+  mv scripts next-app
+  mv sicp.pdf teachyourselfcs/structure-interpretation-computer-programs.pdf
+  mv solved-wezterm-leader.jpg published
+  mv src next-app
+  mv Taylor\ Swift\ -\ Shake\ It\ Off\ \(Taylor\'s\ Version\)\ \(Lyric\ Video\)\ \[mvVBuG4IOW4\].mp3 blah.mp3
+  mv Taylor\ Swift\ -\ Shake\ It\ Off\ \(Taylor\'s\ Version\)\ \(Lyric\ Video\)\ \[mvVBuG4IOW4\].mp3 haha.mp3
+  mv Taylor\ Swift\ -\ Shake\ It\ Off\ \(Taylor\'s\ Version\)\ \(Lyric\ Video\)\ \[mvVBuG4IOW4\].mp3 tswift.mp3
+  mv Taylor\ Swift\ -\ Shake\ It\ Off\ \(Taylor\'s\ Version\)\ \(Lyric\ Video\)\ \[mvVBuG4IOW4\].webm blah.mp3
+  mv Taylor\ Swift\ -\ Shake\ It\ Off\ \(Taylor\'s\ Version\)\ \(Lyric\ Video\)\ \[mvVBuG4IOW4\].webm test.webm
+  mv Tech-N9ne-Kendrick-Lamar-¡MAYDAY\!-Kendall-Morgan-Fragile.mp3 Tech-N9ne-Kendrick-Lamar-MAYDAY-Kendall-Morgan-Fragile.mp3
+  mv ../temo .env
+  mv ../TEMP .git
+  mv temp/* justindevelops
+  mv ../temp lua/config
+  mv temp/thetextingapp .
+  mv temp TODO.md
+  mv test-file.txt input-file.txt
+  mv test_main.c ..
+  mv test.sh tests
+  mv tests test
+  mv test/test.sh .
+  mv * ../text-me
+  mv the-algorithm-design-manual-3rd-edition.pdf teachyourselfcs
+  mv thetextingapp temp
+  mv thetextingapp TEMP
+  mv thetextingapp _thetextingapp
+  mv T.I.,-Eminem-That\'s-All-She-Wrote.mp3 T.I.,-Eminem-Thats-All-She-Wrote.mp3
+  mv time.lua time/init.lua
+  mv TODO.md temp
+  mv tools/CPUEmulator.sh tools/cpuemulator
+  mv tools/HardwareSimulator.sh ../bin/hardwaresim
+  mv tsconfig.json next-app
+  mv typing-test C
+  mv wezterm-icon.svg published
+  mv wezterm-types-dotfiles old
+  mv wezterm-types _old
+  mv wezterm-types wezterm
+  mv wezterm/types wezterm-types
+  mv wezterm-types wezterm-types-dotfiles
+  mv Yung-Pinch-Beach-Ballin\'-feat-blackbear.mp3 Yung-Pinch-Beach-Ballin-feat-blackbear.mp3
+  n
+  ../nand2tetris
+  neovide
+  neovide 
+  neovide ~/.config/wezterm/types/wezterm/nerdfonts.lua
+  neovide mkdocs.yml
+  neovide types/config/init.lua
+  neovide types/init.lua
+  neovide types/objects/color.lua
+  ../next-app/
+  \nmkdir 2/exercises/2-1 2/exercises/2-2 2/exercises/2-3 2/exercises/2-4 2/exercises/2-5 2/exercises/2-6 2/exercises/2-7 2/exercises/2-8 2/exercises/2-9 2/exercises/2-10\n\nmkdir 3/exercises/3-1 3/exercises/3-2 3/exercises/3-3 3/exercises/3-4 3/exercises/3-5 3/exercises/3-6\n\nmkdir 4/exercises/4-1 4/exercises/4-2 4/exercises/4-3 4/exercises/4-4 4/exercises/4-5 4/exercises/4-6 4/exercises/4-7 4/exercises/4-8 4/exercises/4-9 4/exercises/4-10 4/exercises/4-11 4/exercises/4-12 4/exercises/4-13 4/exercises/4-14\n\nmkdir 5/exercises/5-1 5/exercises/5-2 5/exercises/5-3 5/exercises/5-4 5/exercises/5-5 5/exercises/5-6 5/exercises/5-7 5/exercises/5-8 5/exercises/5-9 5/exercises/5-11 5/exercises/5-12 5/exercises/5-13 5/exercises/5-14 5/exercises/5-15 5/exercises/5-16 5/exercises/5-17 5/exercises/5-18 5/exercises/5-19 5/exercises/5-20\n\nmkdir 6/exercises/6-1 6/exercises/6-2 6/exercises/6-3 6/exercises/6-4 6/exercises/6-5 6/exercises/6-6\n\nmkdir 7/exercises/7-1 7/exercises/7-2 7/exercises/7-3 7/exercises/7-4 7/exercises/7-5 7/exercises/7-6 7/exercises/7-7 7/exercises/7-8 7/exercises/7-9\n\nmkdir 8/exercises/8-1 8/exercises/8-2 8/exercises/8-3 8/exercises/8-4 8/exercises/8-5 8/exercises/8-6 8/exercises/8-7 8/exercises/8-8\n
+  nn
+  nn ~/.config/natty-neovim/init.vim
+  nn ~/.config/natty-nvim/init.vim
+  nn nvim.txt
+  nn temo.txt
+  nn terminal_typing_tutor/main2.py
+  nn terminal_typing_tutor/main.py
+  nn terminal_typing_tutor/tutor.py
+  node -v
+  node --version
+  npm balh
+  npm create t3-app@latest
+  \npm install --global sass
+  npm install --global sass
+  \npm install --global yarn
+  npm install --global yarn
+  npm install -g  npm@10.2.0
+  npm install hahahaha
+  npm install --lobal tsx\n
+  npm i --save-dev @types/nodemailer
+  npx create-next-app@latest 
+  npx prisma init --datasource-provider sqlite \n
+  npx prisma migrate dev --name init
+  npx ts-node prisma/scripts/init.ts\n
+  nvim
+  nvim 
+  nvim 03/a/Bit.hdl
+  nvim 05/Memory.hdl
+  nvim 1-13.c
+  nvim 1-17.c
+  nvim 1-18.c
+  nvim 1-1.c
+  nvim 1-2.c
+  nvim 1-5.c
+  nvim amber.md
+  nvim app/celeryworker_pre_start.py
+  NVIM_APPNAME="astronvim"
+  nvim-astro
+  nvim backend/app/app/celeryworker_pre_start.py
+  nvim backend/app/pyproject.toml
+  nvim ./bin/dev
+  nvim ~/bin/test.sh
+  nvim blah
+  nvim blah.md
+  nvim blah.txt
+  nvim chap2.c
+  nvim chap3.c
+  nvim chap4.c
+  nvim chapter-1/special-longest-line.c
+  nvim chapterone.c
+  nvim config/environments/development.rb
+  nvim ~/.config/exercism/user.json
+  nvim ~/.config/nvim/init.lua
+  nvim ~/.config/nvim/lua/config/commands/init.lua
+  nvim ~/.config/nvim/lua/plugins/colorschemes/init.lua
+  nvim ~/.config/nvim/lua/plugins/completion/_nvim-cmp.lua
+  nvim ~/.config/nvim/lua/plugins/diagnostics/init.lua
+  nvim ~/.config/nvim/lua/plugins/diagnostics/_nvim-lightbulb.lua
+  nvim ~/.config/nvim/lua/plugins/file-explorer/_neo-tree.lua
+  nvim ~/.config/nvim/lua/plugins/file-explorer/_nvim-tree.lua
+  nvim ~/.config/nvim/lua/theme-daddy/colorscheme/init.lua
+  nvim ~/.config/nvim/lua/theme-daddy/init.lua
+  nvim ~/.config/nvim/lua/theme-daddy/theme/init.lua
+  nvim config/routes.rb
+  nvim ~/.config/zsh/.zshrc
+  nvim cred-helper.sh
+  nvim ../C/the-c-programming-language/chapter-1/1-18.c
+  nvim docker-compose.
+  nvim docker-compose.yml
+  nvim dummy
+  nvim dummy2.txt
+  nvim ~/.envars
+  nvim examples/Makefile
+  nvim examples/strindex.c
+  nvim ../exercism/c/hello-world/hello_world.c
+  nvim frontend/api/./services.ts
+  nvim ../frontend/nuxt.config.ts
+  nvim frontend/package.json
+  nvim ~/Github/justinsgithub/dotfiles/scripts/format-mp3-song.sh
+  nvim Github/justinsgithub/text-me/scripts/crontab 
+  nvim .gitignore
+  nvim .gitlab-ci.yml
+  nvim hello-world/HELP.md
+  nvim HELP.md
+  nvim init.lua
+  nvim input-file.txt
+  nvim -l
+  nvim -l basics.lua
+  nvim -l chunks.lua
+  nvim -l global-vars.lua
+  nvim -l init.lua
+  nvim -l lua-and-neovim.lua
+  nvim -l lua/oh-my-lazyvim/utils.lua
+  nvim ~/.local/lib/python3.10/site-packages/yt_dlp/extractor/youtube.py
+  nvim -l overview.lua
+  nvim -l overview.lua 
+  nvim -l types.lua
+  nvim main.c
+  nvim makefile
+  nvim mkdocs.yml
+  nvim Mux4Way16.hdl
+  nvim nand2tetris/projects/01/Not.hdl
+  nvim .neovim/README.md
+  nvim next-app/scripts/email.ts
+  nvim package.json
+  nvim pages/index.tsx
+  nvim random/blackjack.py
+  nvim random/crontab.py
+  nvim README.md
+  nvim scripts/crontab
+  nvim scripts/email.ts
+  nvim ~scripts/format-mp3-song.sh
+  nvim scripts/imap.py
+  nvim src/pages/index.tsx
+  nvim the-c-programming-language/chapter-1/main.c
+  nvim the-c-programming-language/test.sh
+  nvim vampire-woman.txt
+  nvim ~/.zshrc
+  nvm install 18
+  nvm use 18
+  om
+  oml
+  omz update
+  openssl rand -hex 32\n
+  pactl list | grep -i bluetooth
+  pdftohtml -enc UTF-8 -noframes  k_r.pdf k_r.html
+  pip install cookiecutter\n
+  pip install hatch\n
+  pip install imap-tools
+  pip install mkdocs
+  pip install pyright
+  pip install python-crontab
+  pip install -r requirements.txt
+  pip install spotdl
+  pip install terminal-typing-tutor
+  pip install -U yt-dip
+  pip install -U yt-dlp
+  pnpm add axios
+  pnpm add -D commander
+  pnpm add -D commaner
+  pnpm add -D prisma
+  pnpm add -D typescript ts-node @types/node
+  pnpm add -D @types/nodemailer
+  pnpm add @emotion/cache
+  pnpm add @fontsource/roboto
+  pnpm add -g tsx
+  pnpm add @mui/icons-material
+  pnpm add @mui/material @emotion/react @emotion/styled
+  pnpm add nodemailer
+  pnpm create next-app@latest
+  pnpm dev
+  pnpm install
+  pnpm install 
+  pnpm install .
+  pnpm install --global prettier eslint @fsouza/prettierd
+  pnpm install --global prettier eslint prettierd
+  poetry config virtualenvs.create false                                            
+  ../prisma-nextjs
+  ps
+  pwd
+  python3 crontab-example.py
+  python3 -m http
+  python3 -m http.server
+  python3 -m http.server 9000
+  python3 -m http.simpleserver
+  python3 scripts/imap.py
+  python3 --version
+  :q
+  ;q
+  rails new --help
+  rails new railsapp --css bootstrap
+  rails new railsapp --css tailwind
+  rails new railsapp --css tailwindcss
+  rails -v
+  ./random/bg-test.sh
+  read --help
+  reboot
+  # requir  ruby iv
+  ruby -v
+  ruby --version
+  s
+  ~scripts/format-mp3-song.sh
+  ~scripts/format-mp3-song.sh 
+  ~scripts/format-mp3-song.sh &> /dev/null
+  sed -e 's/^[0123456789]* //' history.txt
+  sed -e 's/^[0123456789]*//' history.txt
+  sed -e 's/^ *[0-9]*//g' history.txt
+  sed -e 's/^ *[0-9]*//g' history.txt > history.txt
+  sed -e 's/^[0-9]* //' history.txt
+  sed -e 's/^[0-9]*//' history.txt
+  sed -e 's/^.*//' history.txt
+  sed -e 's/^.*://' history.txt
+  sed -n '/^\s*function\s*([a-zA-Z0-9_]+)\s*\([^\)]*\)\s*\{/p' main.c
+  sed -n '/^\s*hello_world\s*([a-zA-Z0-9_]+)\s*\([^\)]*\)\s*\{/p' main.c
+  sed 's/\/\/ //' main.c
+  sed 's/\/\/ //' main.c > test.c2
+  sed 's/\/\/ \(unknown_escape_char();\)/\1/' main.c
+  sed 's/\/\/ (unknown_escape_char();)//' main.c
+  sed 's/\/\/ \(unknown_escape_char();\)//' main.c
+  sed 's/\/\/ unknown_escape_char();//' main.c
+  sed 's/\/\/ unknown_escape_char();//' main.c > test.c
+  select-editor
+  sh ~/bin/test2.sh
+  sl
+  sleep 5s  && vlc --intf dummy alarm.mp3\n
+  source ./backend/app/.venv/bin/activate
+  source ~/.envars && curl -d 'subject=mood&text=How is your mood this hour? from 1 - 5' -X POST $EMAILTEXTAPI &> /home/justin/.cronlogs
+  source /home/justin/.config/zsh/.zshrc
+  source "/home/justin/.local/share/hatch/env/virtual/app/Ae3UJjH4/app/bin/activate"
+  source "/home/justin/.local/share/hatch/env/virtual/app/bxW4whAo/app/bin/activate"
+  source "/home/justin/.local/share/hatch/env/virtual/random/K1DVLcpY/random/bin/activate"
+  source "/home/justin/.local/share/hatch/env/virtual/-thetextingapp/Dcx4zQfi/-thetextingapp/bin/activate"
+  source "/home/justin/.local/share/hatch/env/virtual/thetextingapp/WHbyfK4o/thetextingapp/bin/activate"
+  spotdl -h
+  spotdl -help
+  spotdl https://api.spotify.com/v1/tracks/11dFghVXANMlKmJXsNCbNl
+  spotdl https://api.spotify.com/v1/tracks/22VHOlVYBqytsrAqV8yXBK
+  spotdl https://api.spotify.com/v1/tracks/5lDriBxJd22IhOH9zTcFrV
+  spotdl https://open.spotify.com/collection/tracks
+  spotdl https://open.spotify.com/collection/tracks 
+  spotdl https://open.spotify.com/playlist/0gMZJ4u8xadOEB9ZduN0gD
+  spotdl https://open.spotify.com/playlist/0wXg2PJGiFMPiYOo9HICo1
+  spotdl https://open.spotify.com/playlist/3PBMzHZ8IknthVwVce8tnj
+  spotdl https://open.spotify.com/track/5lDriBxJd22IhOH9zTcFrV
+  spotdl --versin
+  spotdl --version
+  sqlite3 --version
+  stow bundler
+  stow --delete neovim
+  stow --delete wezterm
+  stow gnome
+  stow neovim
+  sudo add-apt-repository ppa:maveonair/helix-editor\n
+  sudo apt autoremove
+  sudo apt autorremove
+  sudo apt-et install blueman\n\n
+  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n
+  sudo apt-get install git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev
+  sudo apt-get install poppler-utils\n
+  sudo apt-get install proton-vpn-gnome-desktop\n
+  sudo apt-get update\n
+  sudo apt-get update\nsudo apt-get install ca-certificates curl gnupg\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\nsudo chmod a+r /etc/apt/keyrings/docker.gpg
+  sudo apt-get update && sudo apt-get install spotify-client\n
+  sudo apt install apache2
+  sudo apt install at
+  sudo apt install blueman
+  sudo apt install bluemanb
+  sudo apt install clang
+  sudo apt install clangd-14
+  sudo apt install clang-format
+  sudo apt install curl\n\nsudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg\n\necho "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list\n\nsudo apt update\n\nsudo apt install brave-browser
+  sudo apt install dbus-x11
+  sudo apt install default-jdk\n\n
+  sudo apt install ffmpeg && sudo pip3 install spotdl
+  sudo apt install gnome-boxes
+  sudo apt install gthumb
+  sudo apt install helix && sudo apt upgrade && reboot
+  sudo apt install lua5.1
+  sudo apt install pavucontrol
+  sudo apt install  pulseaudio
+  sudo apt install pulseaudio
+  sudo apt install pulseaudio-module-bluetooth
+  sudo apt install --reinstall bluez gnome-bluetooth indicator-bluetooth pipewire-pulse
+  sudo apt install screenkey
+  sudo apt install system76-keyboard-configurator
+  sudo apt install vim
+  sudo apt install vim-gtk3 
+  sudo apt install vim-gtk3 vim --version
+  sudo apt install xclip obs kdenlive
+  sudo apt install xclip obs-studio kdenlive
+  sudo apt install -y cheese
+  sudo apt install -y curl \\n    gnupg ca-certificates git \\n    gcc-multilib g++-multilib cmake libssl-dev pkg-config \\n    libfreetype6-dev libasound2-dev libexpat1-dev libxcb-composite0-dev \\n    libbz2-dev libsndio-dev freeglut3-dev libxmu-dev libxi-dev libfontconfig1-dev \\n    libxcursor-dev\n
+  sudo apt install -y --install-recommends --install-suggested pulseaudio
+  sudo apt install -y --install-recommends --install-suggests pulseaudio
+  sudo apt install youtube-dl youtubedl-gui
+  sudo apt install ystem76-keyboard-configurator
+  sudo apt install -y webcamoid
+  sudo apt reinstall --purge bluez gnome-bluetooth\n
+  sudo apt remove apache2
+  sudo apt search -n lua
+  sudo apt search -n screenkey
+  sudo apt search pulseaudio-module-bluetooth
+  sudo apt update
+  sudo apt update\n\nsudo apt install brave-browser
+  sudo apt update && sudo apt upgrade and sudo apt autoremove && reboot
+  sudo apt update && sudo apt upgrade && sudo apt autoremove
+  sudo apt update && sudo apt upgrade && sudo apt autoremove 
+  sudo apt update && sudo apt upgrade && sudo apt autoremove && reboot
+  sudo apt upgrade
+  sudo apt upgrade && sudo apt autoremove && reboot
+  sudo btmon\n
+  sudo cat /etc/crontab
+  sudo cat /root/bin/html-date-test.sh
+  sudo cat /root/cronlogs
+  sudo cat /root/.docker/config.json
+  sudo cat /var/spool/cron/crontabs
+  sudo cat /var/spool/cron/crontabs/justin
+  sudo cat /var/www/html/index.html
+  sudo chmod 666 .nuxt/*
+  sudo chmod -R 666 .nuxt
+  sudo chmod -R .nuxt 666
+  sudo chmod -rwx .nuxt/*
+  sudo chmod -RWX .nuxt/*
+  sudo chmod -R +xrw node_modules
+  sudo chmod -w -R .nuxt
+  sudo chmod +x /root/bin/html-date-test.sh
+  sudo chmod +xrw node_modules
+  sudo chmod +xrw node_modules/*
+  sudo chown -R justin .nuxt
+  sudo chown -R justin .nuxt/*
+  sudo cp bin/build/linux_amd64/docker-credential-secretservice /usr/local/bin
+  sudo cp ~/Github/justinsgithub/text-me/scripts/crontab /etc/crontab
+  sudo cp Github/justinsgithub/text-me/scripts/crontab /etc/crontab
+  sudo crontab -l
+  sudo dmesg | grep -i bluetooth
+  sudo dmesg | grep -i bluetooth | grep -i firmware 
+  sudo docker build backend.dockerfile
+  sudo docker compose build
+  sudo docker compose build --no-cache
+  sudo docker compose logs
+  sudo docker compose logs backend
+  sudo docker compose up -d
+  sudo docker compose up -d 
+  sudo docker compose up -d --build
+  sudo docker container kill bb328fb0facd
+  sudo docker container rm c9b5c764e913
+  sudo docker ddocker-compose build --no-cach
+  sudo docker exec -it 02a1d744ae6c bash
+  sudo docker exec -it 093bb4a6cedb bash
+  sudo docker exec -it 2ba3df6d5c68 bash
+  sudo docker exec -it 3337ccbfa322 bash
+  sudo docker exec -it 3c52826349b5 bash
+  sudo docker exec -it 43ddc05a803c bash
+  sudo docker exec -it 5981faaf8ac3 bash
+  sudo docker exec -it 8614494fc09b bash
+  sudo docker exec -it 874c0416497b bash
+  sudo docker exec -it b3656fa64a9a bash
+  sudo docker exec -it b59b8c37a4f8 bash
+  sudo docker exec -it bb328fb0facd
+  sudo docker exec -it bb328fb0facd bash
+  sudo docker exec -it bd5a161acb1e 
+  sudo docker exec -it bd5a161acb1e bash
+  sudo docker exec -it dab9c3caafeb bash
+  sudo docker image rm d7d2d17a7c5c 9101695db2a3 8a6e58b2e819 9c7a54a9a43c  f965f5a1fff8
+  sudo docker image rm f70baa3facc1
+  sudo docker images
+  sudo docker images rm cef9515f8b65 828751b7de54 48930b27bc9a 713aae83a8d7 b4c24a745cb4 db3396879dc1 8eb22834e548 8bb0a007bd11 9ea395a8b7e9 410e12a154fa e76687e51dc5 55dc24fd20a9 b8f003d790f4 a266b61886e6 
+  sudo docker kill $(docker ps -q)
+  sudo docker kill $(sudo docker ps -q)
+  sudo docker list
+  sudo docker ps
+  sudo docker ps 
+  sudo docker ps -a
+  sudo docker ps a
+  sudo docker restart $(sudo docker ps -aq)
+  sudo docker rm $(sudo docker ps -a -q)
+  sudo docker rm $(sudo docker ps -aq)
+  sudo docker rm bb328fb0facd
+  sudo docker run hello-world
+  sudo docker stop *
+  sudo find / -name  deps
+  sudo find / -name  neovim
+  sudo git clone git@github.com:justinsgithub/ohmylazyvim.git
+  sudo gnome-boxes 
+  sudo hatch env prune
+  sudo ln nvim /home/justin/.local/share/bob/nvim-bin/nvim
+  sudo ln -s /home/justin/.local/share/bob/nvim-bin/nvim /bin/nvim
+  sudo ln -s /opt/poetry/bin/poetry && \                                                 \npoetry config virtualenvs.create false                                            \n: 1698379186:0;bash
+  sudo ls bin
+  sudo ls bin/build
+  sudo ls bin/build/linux_amd64
+  sudo ls bin/build/linux_arm64
+  sudo lsblk -f
+  sudo ls /var/lib/docker/volumes/thetextingapp_nodemods/_data
+  sudo ls /var/lib/docker/volumes/thetextingapp_node_modules/_data
+  sudo ls /var/spool/cron/crontabs
+  sudo mkdir Musi
+  sudo mkdir Music
+  sudo mkdir /root/bin
+  sudo mv T.I.,-Eminem-That\'s-All-She-Wrote.mp3 T.I.,-Eminem-Thats-All-She-Wrote.mp3
+  sudo nvim /root/bin/html-date-test.sh
+  sudo nvim /root/.docker/config.json
+  sudo parted -l
+  sudo parted -l\n
+  sudo rm node_modules
+  sudo rm poetry 
+  sudo \rm -rf material-ui-nextjs-pages-router-ts text-me _thetextingapp 
+  sudo rm -rf node_modules
+  sudo rm /root/.docker/config.json
+  sudo su
+  sudo systemctl status bluetooth\n
+  sudo ufw status
+  sudo update-alternatives --config editor\n
+  sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-14 100
+  sudo vim /etc/apt/sources.list.d/./brave-browser-release.list
+  sudo vim /etc/crontab
+  sudo vim /root/bin/html-date-test.sh
+  sudo yarn dev
+  sudo yarn dev 
+  sudo yarn install --frozen-lockfile 
+  ../tailwindcss
+  tar -xf exercism-3.2.0-linux-x86_64.tar.gz\n
+  ./test.sh
+  ./test/test.sh
+  ../../../the-c-programming-language
+  ../../the-c-programming-language
+  ../_thetextingapp
+  ./tools/cpuemulator
+  ./tools/hardwaresim
+  ./tools/hardwaresim 
+  ./tools/hardwaresim projects/01/DMux4Way.tst
+  ./tools/hardwaresim projects/01/DMux8Way.tst
+  ./tools/hardwaresim projects/01/Mux4Way16.tst
+  ./tools/hardwaresim projects/01/Mux8Way16.tst
+  ./tools/hardwaresim projects/02/Add16.tst
+  ./tools/hardwaresim projects/02/Adder.tst
+  ./tools/hardwaresim projects/02/ALU-basic.tst
+  ./tools/hardwaresim projects/02/ALU.tst
+  ./tools/hardwaresim projects/02/FullAdder.tst
+  ./tools/hardwaresim projects/02/HalfAdder.tst
+  ./tools/hardwaresim projects/02/Inc16.tst
+  ./tools/hardwaresim projects/03/a/Bit.hdl
+  ./tools/hardwaresim projects/03/a/Bit.tst
+  ./tools/hardwaresim projects/03/a/PC.tst
+  ./tools/hardwaresim projects/03/a/RAM64.tst
+  ./tools/hardwaresim projects/03/a/RAM8.tst
+  ./tools/hardwaresim projects/03/a/Register.tst
+  ./tools/hardwaresim projects/03/b/RAM16K.tst
+  ./tools/hardwaresim projects/03/b/RAM4K.tst
+  ./tools/hardwaresim projects/03/b/RAM512.tst
+  ./tools/hardwaresim projects/05/ComputerAdd.tst
+  ./tools/hardwaresim projects/05/ComputerMax.tst
+  ./tools/hardwaresim projects/05/ComputerRect.tst
+  ./tools/hardwaresim projects/05/CPU-external.tst
+  ./tools/hardwaresim projects/05/CPU.tst
+  ./tools/hardwaresim projects/05/Memory.tst
+  ./tools/HardwareSimulator.sh
+  ./tools/HardwareSimulator.sh projects/01/And.tst
+  ./tools/HardwareSimulator.sh projects/01/Mux4Way16.tst
+  ./tools/HardwareSimulator.sh projects/01/Mux8Way16.tst
+  ./tools/HardwareSimulator.sh projects/01/Or8Way.tst
+  touch blah
+  touch color.lua exec-domain.lua local-process-info.lua mux-domain.lua mux-window.lua mux-tab.lua pane-information.lua tab-information.lua ssh-domain.lua spawn-command.lua time.lua tls-domain-client.lua tls-domain-server.lua pane.lua window.lua wsl-domain.lua
+  touch color.lua gui.lua mux.lua procinfo.lua time.lua
+  touch lua/config/blah
+  touch nand2tetris/blah
+  touch nerdfonts.lua
+  touch test/.input.txt
+  touch touch-(blaj).mp3
+  touch touch-\(blaj\).mp3
+  touch touch.mp3
+  tsx next-app/scripts/email.ts
+  tsx scripts/email.ts
+  tsx src/helpers/email.ts
+  ttt
+  ufw status
+  unzip compose-0
+  unzip compose-02-finished.zip
+  unzip nand2tetris.zip
+  unzip Photos-001.zip
+  updagte
+  update
+  updatee
+  update && reboot
+  update && sudo apt autoremove && reboot
+  weztermconf
+  wezterm --config debug_key_events=true
+  wezterm show-keys --lua
+  wezterm --version
+  which activat  yarn --version
+  youtube-dl -f mp3   https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  youtube-dl https://music.youtube.com/watch\?v\=LIIDh-qI9oI\&list\=PL2Ie1tkcAbtC9XkEqtD1ZBIgU0T-r0xY8
+  youtube-dl --no-playlist https://music.youtube.com/watch\?v\=LIIDh-qI9oI\&list\=PL2Ie1tkcAbtC9XkEqtD1ZBIgU0T-r0xY8
+  youtube-dl --no-playlist "https://www.youtube.com/watch\?v\=OiC1rgCPmUQ\&list\=PL2Ie1tkcAbtAFgl5Jxe7OHMJkdjVr5AP6"
+  youtube-dl --no-playlist https://www.youtube.com/watch\?v\=OiC1rgCPmUQ\&list\=PL2Ie1tkcAbtAFgl5Jxe7OHMJkdjVr5AP6
+  youtube-dl -u
+  youtube-dl -U
+  youtube-dl --verbose -x --audio-format mp3  https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  youtube-dl --verbose -x --audio-format mp3 --no-playlist https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  youtube-dl --verbose -x --audio-format mp3 --no-playlist https://www.youtube.com/watch\?v\=OiC1rgCPmUQ\&list\=PL2Ie1tkcAbtAFgl5Jxe7OHMJkdjVr5AP6
+  youtube-dl --verbose -x   https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  youtube-dl --version
+  youtube-dl -vU --write-pages --print-traffic --verbose -x --audio-format mp3 --no-playlist https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  youtube-dl -v --write-pages --print-traffic --verbose -x --audio-format mp3 --no-playlist https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  youtube-dl -x --audio-format mp3 --no-playlist https://www.youtube.com/watch\?v\=OiC1rgCPmUQ\&list\=PL2Ie1tkcAbtAFgl5Jxe7OHMJkdjVr5AP6
+  yt-dlp --extract-audio --audio-format mp3 --embed-metadata  https://www.youtube.com/playlist\?list\=PL2Ie1tkcAbtAFgl5Jxe7OHMJkdjVr5AP6
+  yt-dlp --extract-audio --audio-format mp3 --embed-metadata  https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  yt-dlp -f mp3   https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  yt-dlp https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  yt-dlp --no-config -v --get-title E8hyodMhbRw
+  yt-dlp --no-confi -v --et-title E8hyodMhbRw
+  yt-dlp --recode-video mp3 --embed-metadata  https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  yt-dlp --recode-video mp3  https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  yt-dlp --remux-video mp3  https://www.youtube.com/watch\?v\=mvVBuG4IOW4
+  yt-dlp -U
+  zip file.txt
+  zip -r project0.zip file.txt 
+  zsh
+  zshconf
+  zsh --version
