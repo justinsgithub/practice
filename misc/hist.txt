@@ -581,7 +581,6 @@
   echo .zcompdump-pop-os-5.8.1 >> .gitignore
   echo .zcompdump-pop-os-5.8.1.zwc >> .gitignore
   exercism
-  exercism configure --token=316d226e-1736-468f-ba86-44c180352345\n
   exercism download --track=c --exercise=armstrong-numbers
   exercism download --track=c --exercise=hello-world
   exercism submit hello_world.c hello_world.h
