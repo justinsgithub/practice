@@ -7,8 +7,6 @@ messages you get.
 #include <stdio.h>
 
 int hello_world() {
-  printf("hello, ");
-  printf("world");
-  printf("\n");
+  printf("hello, world\n");
   return 0;
 }
