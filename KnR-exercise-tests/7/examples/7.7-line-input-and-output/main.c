@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-/* fgets: get at most n chars from iop */
-char *filegets(char *s, int n, FILE *iop) {
+/* filegets: get at most n chars from iop */
+char *filegetline(char *s, int n, FILE *iop) {
   register int c;
   register char *cs;
   cs = s;
@@ -22,8 +22,8 @@ int fileputs(char *s, FILE *iop) {
 }
 
 /* getline: read a line, return length */
-int get_line(char *line, int max) {
-  if (fgets(line, max, stdin) == NULL)
+int get_line(char *line, int max, FILE *infile) {
+  if (fgets(line, max, infile) == NULL)
     return 0;
   else
     return strlen(line);
