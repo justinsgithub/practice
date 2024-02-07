@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,3 +19,5 @@ void filecopy(FILE *, FILE *);
 int str_pattern(char str[], char pattern[]);
 int get_line(char *line, int max, FILE *infile);
 int remove_comments(FILE *file, char lines[MAXLINE][MAX_LINE_LENGTH]);
+void strip_comment(char *line);
+void remove_whitespace(char *line);

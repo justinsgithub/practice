@@ -9,32 +9,60 @@ void openfile(FILE **f, char *fname, char *mode) {
 }
 
 int remove_comments(FILE *file, char lines[MAXLINE][MAX_LINE_LENGTH]) {
-  // FILE *file;
-  // char lines[MAXLINE][MAX_LINE_LENGTH];
   char line[MAX_LINE_LENGTH];
   int line_count = 0;
 
   // Read lines from the file and store them in the array
   while (fgets(line, MAX_LINE_LENGTH, file) != NULL) {
     if (line_count < MAXLINE - 1) {
-      strcpy(lines[line_count], line);
-      line_count++;
+      strip_comment(line);
+      remove_whitespace(line);
+      if (strlen(line) > 1) {
+        strcpy(lines[line_count], line);
+        line_count++;
+      }
     } else {
       fprintf(stderr, "Reached maximum number of lines\n");
       break;
     }
   }
 
-  // Close the file
-  fclose(file);
-
   // Print the lines stored in the array
-  printf("Lines read from the file:\n");
   for (int i = 0; i < line_count; i++) {
-    printf("%s\n", lines[i]);
+    printf("%s", lines[i]);
   }
 
   return 0;
+}
+
+void remove_whitespace(char *line) {
+  char *src = line;  // Source pointer for reading
+  char *dest = line; // Destination pointer for writing
+
+  // Iterate through the line
+  while (*src) {
+    // If the character is not a white space (excluding newline), copy it
+    if (!isspace(*src) || *src == '\n') {
+      *dest++ = *src;
+    }
+    src++;
+  }
+
+  // Add null terminator at the end
+  *dest = '\0';
+}
+
+void strip_comment(char *line) {
+  for (int i = 0;;) {
+    if (line[i] == '\n')
+      break;
+    /* character "/" is only used as comment */
+    if (line[i] == '/') {
+      line[i++] = '\n';
+      line[i] = '\0';
+    }
+    i++;
+  }
 }
 
 /* filecopy: copy file ifp to file ofp */
