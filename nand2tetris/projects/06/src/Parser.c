@@ -1,5 +1,18 @@
 #include "Assembler.h"
 
+struct prog_files init(int argc, char *asmfile);
+int has_more_commands(int *lc);
+void advance(char **command, int *first);
+
+struct PARSER Parser() {
+  struct PARSER p;
+
+  p.init = init;
+  p.has_more_commands = has_more_commands;
+  p.advance = advance;
+  return p;
+};
+
 struct prog_files init(int argc, char *asmfile) {
   struct prog_files files;
   char hf[100];
@@ -21,3 +34,22 @@ struct prog_files init(int argc, char *asmfile) {
   openfile(&files.hackfp, hackfile, "w");
   return files;
 }
+
+int has_more_commands(int *line_count) {
+  if ((*line_count)--)
+    return 1;
+  return 0;
+};
+
+void advance(char **command, int *first) {
+  if (!(*first))
+    *command += MAX_LINE_LENGTH;
+  if (*first == 1)
+    (*first) = 0;
+};
+
+/* int *command_type(char *command); */
+/* char *symbol(char *command); */
+/* char *dest(char *command); */
+/* char *comp(char *command); */
+/* char *jump(char *command); */

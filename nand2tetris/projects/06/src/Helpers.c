@@ -32,7 +32,7 @@ int remove_comments(FILE *file, char lines[MAXLINE][MAX_LINE_LENGTH]) {
     printf("%s", lines[i]);
   }
 
-  return 0;
+  return line_count;
 }
 
 void remove_whitespace(char *line) {
