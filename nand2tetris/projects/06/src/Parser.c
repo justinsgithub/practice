@@ -1,18 +1,5 @@
 #include "Assembler.h"
 
-struct prog_files init(int argc, char *asmfile);
-int has_more_commands(int *lc);
-void advance(char **command, int *first);
-
-struct PARSER Parser() {
-  struct PARSER p;
-
-  p.init = init;
-  p.has_more_commands = has_more_commands;
-  p.advance = advance;
-  return p;
-};
-
 struct prog_files init(int argc, char *asmfile) {
   struct prog_files files;
   char hf[100];
@@ -46,10 +33,81 @@ void advance(char **command, int *first) {
     *command += MAX_LINE_LENGTH;
   if (*first == 1)
     (*first) = 0;
-};
+}
 
-/* int *command_type(char *command); */
-/* char *symbol(char *command); */
-/* char *dest(char *command); */
-/* char *comp(char *command); */
-/* char *jump(char *command); */
+void command_type(char *command, int *type) {
+  switch (*command) {
+  case '@':
+    *type = A_COMMAND;
+    break;
+  case '(':
+    *type = L_COMMAND;
+    break;
+  default:
+    *type = C_COMMAND;
+    break;
+  }
+}
+
+void symbol(char *command, char *symbol_str) {
+  if (*command++ == '@') {
+    while (*command)
+      *symbol_str++ = *command++;
+    *symbol_str = '\0';
+    return;
+  }
+  while (*command != ')')
+    *symbol_str++ = *command++;
+  *symbol_str = '\0';
+}
+
+void dest(char *command, char *dest_str) {
+  char *equal = strchr(command, '=');
+  if (!equal) {
+    strcpy(dest_str, STRNULL);
+    return;
+  }
+  while (*command != '=')
+    *dest_str++ = *command++;
+  (*dest_str)++;
+  *dest_str = '\0';
+}
+
+void jump(char *command, char *jump_str) {
+  char *semi = strchr(command, ';');
+  if (!semi++) {
+    strcpy(jump_str, STRNULL);
+    return;
+  }
+  while (*semi)
+    *jump_str++ = *semi++;
+  (*jump_str)++;
+  *jump_str = '\0';
+}
+
+void comp(char *command, char *comp_str) {
+  char *equal = strchr(command, '=');
+  if (equal++) {
+    while (*equal)
+      *comp_str++ = *equal++;
+    *comp_str = '\0';
+    return;
+  }
+  while (*command != ';')
+    *comp_str++ = *command++;
+  *comp_str = '\0';
+}
+
+struct PARSER Parser() {
+  struct PARSER p;
+
+  p.init = init;
+  p.has_more_commands = has_more_commands;
+  p.advance = advance;
+  p.command_type = command_type;
+  p.symbol = symbol;
+  p.dest = dest;
+  p.comp = comp;
+  p.jump = jump;
+  return p;
+}

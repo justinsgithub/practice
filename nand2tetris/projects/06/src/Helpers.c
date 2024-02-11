@@ -27,11 +27,6 @@ int remove_comments(FILE *file, char lines[MAXLINE][MAX_LINE_LENGTH]) {
     }
   }
 
-  // Print the lines stored in the array
-  for (int i = 0; i < line_count; i++) {
-    printf("%s", lines[i]);
-  }
-
   return line_count;
 }
 
@@ -42,7 +37,7 @@ void remove_whitespace(char *line) {
   // Iterate through the line
   while (*src) {
     // If the character is not a white space (excluding newline), copy it
-    if (!isspace(*src) || *src == '\n') {
+    if (!isspace(*src)) {
       *dest++ = *src;
     }
     src++;
@@ -92,4 +87,53 @@ int get_line(char *line, int max, FILE *infile) {
   if (fgets(line, max, infile) == NULL)
     return 0;
   return strlen(line);
+}
+
+char *concat(char *base, ...) {
+  char *str;
+  va_list strings;
+
+  va_start(strings, base);
+  while ((str = va_arg(strings, char *))) {
+    if (!(strcmp(str, STRNULL)))
+      break;
+    strcat(base, str);
+  }
+
+  va_end(strings);
+  return base;
+}
+
+// Function to convert decimal string to 16-bit binary representation
+char *decimal_to_binary(char *decimal_str) {
+  long decimal_val = strtol(decimal_str, NULL, 10); // Convert string to long integer
+  // Allocate memory for binary representation (16 bits + null terminator)
+  char *binary = (char *)malloc(17 * sizeof(char));
+
+  if (binary == NULL) {
+    fprintf(stderr, "Memory allocation failed\n");
+    return NULL;
+  }
+
+  binary[16] = '\0'; // Null terminator
+
+  // Convert decimal value to binary representation
+  for (int i = 15; i >= 0; i--) {
+    binary[i] = (decimal_val & 1) ? '1' : '0';
+    decimal_val >>= 1;
+  }
+
+  return binary;
+}
+
+int is_num(const char *str) {
+  char *endptr;
+  strtol(str, &endptr, 10); // Attempt to convert string to a long integer
+
+  // Check if conversion failed (no digits found or invalid number)
+  if (errno == ERANGE || *endptr != '\0') {
+    return 0; // Not a number
+  }
+
+  return 1; // Is a number
 }

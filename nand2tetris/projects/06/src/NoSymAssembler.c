@@ -1,4 +1,5 @@
 #include "Assembler.h"
+#include <stdio.h>
 
 int main(int argc, char *argv[]) {
   struct PARSER parser = Parser();
@@ -17,32 +18,9 @@ int main(int argc, char *argv[]) {
   char jumpbits[4];
   char cinstruction[18]; /* 18 is 16 bits plus \n and \0*/
   char *ainstruction = (char *)malloc(18 * sizeof(char));
-  Constructor();
-  int rom_count = 0;
-  int var_count = 16;
 
   int line_count = remove_comments(fp.asmfp, lines);
   char *command = lines[0];
-
-  for (int i; i < line_count; i++) {
-    char *c = lines[i];
-    parser.command_type(c, &type);
-    switch (type) {
-    case C_COMMAND:
-      rom_count++;
-      break;
-    case A_COMMAND:
-      rom_count++;
-      break;
-    case L_COMMAND:
-      parser.symbol(c, symbol_str);
-      if (!contains(symbol_str))
-        add_entry(symbol_str, rom_count);
-      break;
-    default:
-      break;
-    }
-  }
 
   while (parser.has_more_commands(&line_count)) {
     strcpy(cinstruction, "111"); /* reset each loop to create instructtion */
@@ -59,25 +37,27 @@ int main(int argc, char *argv[]) {
       concat(cinstruction, compbits, destbits, jumpbits, STRNULL);
       strcat(cinstruction, "\n");
       fputs(cinstruction, fp.hackfp);
+      printf("deststr = %s\n", deststr);
+      printf("jumpstr = %s\n", jumpstr);
+      printf("compstr = %s\n", compstr);
+      printf("cinstruction = %s\n", cinstruction);
       break;
-    case A_COMMAND:
+    default:
       parser.symbol(command, symbol_str);
-      if (!is_num(symbol_str)) {
-        if (!contains(symbol_str))
-          add_entry(symbol_str, var_count++);
-        sprintf(symbol_str, "%d", get_address(symbol_str));
-      }
+      printf("symbolstr = %s\n", symbol_str);
       ainstruction = decimal_to_binary(symbol_str);
       strcat(ainstruction, "\n");
       fputs(ainstruction, fp.hackfp);
       break;
-    case L_COMMAND:
-      break;
-    default:
-      break;
     }
   }
+
+  // filecopy(fp.asmfp, fp.hackfp);
   fclose(fp.asmfp);
   fclose(fp.hackfp);
+  if (ferror(stdout)) {
+    fprintf(stderr, "%s: error writing stdout\n", prog);
+    exit(2);
+  }
   exit(0);
 }

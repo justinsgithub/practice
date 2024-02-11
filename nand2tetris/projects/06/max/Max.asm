@@ -21,7 +21,7 @@
    @END
    0;JMP
 (ITSR0)
-   @R0             
+   @R0
    D=M
    @R2
    M=D
